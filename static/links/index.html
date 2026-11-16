@@ -60,6 +60,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:20px}
 
 <main class="list" id="products">
 <noscript>
+  <a class="card" href="https://buy.stripe.com/eVq4gy0ys9TTgcf8nt0ZW08">Savings Challenge Pack – $6</a>
   <a class="card" href="https://buy.stripe.com/6oU7sK3KEd659NR9rx0ZW06">Christmas Budget &amp; Gift List Planner 2026 – $7</a>
   <a class="card" href="https://buy.stripe.com/5kQbJ080Uc21f8b9rx0ZW07">Monthly Bill Tracker 2027 – $6</a>
   <a class="card" href="https://buy.stripe.com/9B6bJ0a92fed0dh8nt0ZW05">2027 Money Reset Planner – $14.99</a>
@@ -78,10 +79,12 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:20px}
 /* ==== TO ADD A PRODUCT: copy one { ... } block below, edit it, keep the commas.
    Order on the page = order in this list. badge is optional ("NEW", "SALE", ""). ==== */
 const PRODUCTS = [
+  { name: "Savings Challenge Pack", sub: "18 printable pages · 12 color-in savings trackers", price: "$6",
+    link: "https://buy.stripe.com/eVq4gy0ys9TTgcf8nt0ZW08", img: "img/savings-challenge-pack.jpg", badge: "NEW" },
   { name: "Christmas Budget & Gift List Planner 2026", sub: "29 printable pages · budget & gift list", price: "$7",
-    link: "https://buy.stripe.com/6oU7sK3KEd659NR9rx0ZW06", img: "img/christmas-budget.jpg", badge: "NEW" },
+    link: "https://buy.stripe.com/6oU7sK3KEd659NR9rx0ZW06", img: "img/christmas-budget.jpg", badge: "" },
   { name: "Monthly Bill Tracker 2027", sub: "Never miss a due date: 12 monthly trackers + subscription audit", price: "$6",
-    link: "https://buy.stripe.com/5kQbJ080Uc21f8b9rx0ZW07", img: "img/bill-tracker.jpg", badge: "NEW" },
+    link: "https://buy.stripe.com/5kQbJ080Uc21f8b9rx0ZW07", img: "img/bill-tracker.jpg", badge: "" },
   { name: "2027 Money Reset Planner", sub: "47 printable pages · budget, debt & savings reset", price: "$14.99",
     link: "https://buy.stripe.com/9B6bJ0a92fed0dh8nt0ZW05", img: "img/2027-money-reset.jpg", badge: "" },
   { name: "Paycheck Budget Planner", sub: "Google Sheets & Excel · budget by paycheck", price: "$14.99",
