@@ -26,6 +26,14 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: Decode binary assets (link-in-bio page at /links/)
+        run: |
+          if [ -d static ]; then
+            find static -name '*.b64' -print0 | while IFS= read -r -d '' f; do
+              base64 -d "$f" > "${f%.b64}" && rm "$f"
+            done
+          fi
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
