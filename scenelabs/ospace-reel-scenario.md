@@ -48,3 +48,11 @@ Upload the 5 frames and the voiceover mp3 first, then paste:
 - Open the node "FINAL – O'Space Reel" in the flow and download from there:
   https://elevenlabs.io/app/flows/iDQ81JNVtz6aOPMWKLG5
 - Note: the clips came out horizontal because the source images were 16:9. A vertical TikTok version needs 9:16 images.
+
+## Vertical version v2 (based on O'Space's real Instagram look)
+Real details from their posts: 55 m² private studio, 3 floor-to-ceiling windows with soft daylight, cyclorama 5.9 × 4.6 m with 4.2 m height, crystal chandelier, sheer white curtains, events and styled shoots. Slogan: "Natural light. Clean space. Your vision — fully realized."
+
+- Done: 5 vertical 9:16 frames (V1–V5) and a new voiceover (about 23.8s, voice "Nour")
+- Ready but not run: 5 vertical video clips (VC1–VC5) and the composition node "FINAL VERTICAL – O'Space Reel"
+- Blocked: the ElevenLabs account ran out of credits (1,162 left of 131,000). The clips need about 71,000 credits.
+- To finish: top up credits, then in the flow select VC1–VC5, press Run, then run "FINAL VERTICAL – O'Space Reel"
