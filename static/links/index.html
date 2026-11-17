@@ -69,6 +69,9 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:20px}
 <noscript>
   <h2 class="sec-title">Bundles</h2>
   <a class="card" href="https://ycu9g1-xy.myshopify.com/products/ultimate-finance-bundle-budget-debt-payoff-savings-spreadsheets-for-google-sheets-excel">Ultimate Finance Bundle – $29.99</a>
+  <a class="card" href="https://ycu9g1-xy.myshopify.com/products/2027-money-starter-bundle">2027 Money Starter Bundle – $16.99</a>
+  <a class="card" href="https://ycu9g1-xy.myshopify.com/products/debt-free-bundle">Debt-Free Bundle – $18.99</a>
+  <a class="card" href="https://ycu9g1-xy.myshopify.com/products/holiday-money-bundle">Holiday Money Bundle – $13.99</a>
   <h2 class="sec-title">Budget &amp; Finance Planners</h2>
   <a class="card" href="https://ycu9g1-xy.myshopify.com/products/2027-budget-planner-printable-money-reset-planner-annual-budget-debt-payoff-savings-challenges-monthly-finance-tracker-pdf">2027 Money Reset Planner – $14.99</a>
   <a class="card" href="https://ycu9g1-xy.myshopify.com/products/paycheck-budget-planner-spreadsheet-2027-google-sheets-excel-budget-template">Paycheck Budget Planner – $14.99</a>
@@ -79,10 +82,10 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:20px}
   <h2 class="sec-title">Holiday &amp; Seasonal</h2>
   <a class="card" href="https://ycu9g1-xy.myshopify.com/products/christmas-budget-gift-list-planner-2026">Christmas Budget &amp; Gift List Planner 2026 – $7</a>
   <h2 class="sec-title">Study &amp; Kids</h2>
-  <a class="card" href="https://buy.stripe.com/8x2bJ00ys6HH8JN47d0ZW00">Pink Kawaii Study Girl Kit – $2.99</a>
+  <a class="card" href="https://ycu9g1-xy.myshopify.com/products/pink-kawaii-study-girl-kit">Pink Kawaii Study Girl Kit – $2.99</a>
   <h2 class="sec-title">Faith / Ramadan</h2>
-  <a class="card" href="https://buy.stripe.com/9B6dR8ftm5DD9NR3390ZW04">Ayah Reflection Journal – $4</a>
-  <a class="card" href="https://buy.stripe.com/4gM3cua923vv2lp3390ZW03">Ramadan Planner – $5</a>
+  <a class="card" href="https://ycu9g1-xy.myshopify.com/products/ayah-reflection-journal">Ayah Reflection Journal – $4</a>
+  <a class="card" href="https://ycu9g1-xy.myshopify.com/products/ramadan-planner">Ramadan Planner – $5</a>
 </noscript>
 </main>
 
@@ -98,6 +101,12 @@ const SECTIONS = ["Bundles", "Budget & Finance Planners", "Holiday & Seasonal", 
 const PRODUCTS = [
   { name: "Ultimate Finance Bundle", sub: "Budget, debt payoff & savings spreadsheets", price: 29.99,
     link: "https://ycu9g1-xy.myshopify.com/products/ultimate-finance-bundle-budget-debt-payoff-savings-spreadsheets-for-google-sheets-excel", img: "img/ultimate-finance-bundle.jpg", shop: true, section: "Bundles" },
+  { name: "2027 Money Starter Bundle", sub: "Budget planner, bill tracker & savings challenges", price: 16.99,
+    link: "https://ycu9g1-xy.myshopify.com/products/2027-money-starter-bundle", img: "img/2027-money-starter-bundle.jpg", shop: true, section: "Bundles" },
+  { name: "Debt-Free Bundle", sub: "Debt payoff spreadsheet, 2027 planner & bill tracker", price: 18.99,
+    link: "https://ycu9g1-xy.myshopify.com/products/debt-free-bundle", img: "img/debt-free-bundle.jpg", shop: true, section: "Bundles" },
+  { name: "Holiday Money Bundle", sub: "Christmas budget, savings challenges & sinking funds", price: 13.99,
+    link: "https://ycu9g1-xy.myshopify.com/products/holiday-money-bundle", img: "img/holiday-money-bundle.jpg", shop: true, section: "Bundles" },
   { name: "2027 Money Reset Planner", sub: "47 printable pages · budget, debt & savings reset", price: 14.99,
     link: "https://ycu9g1-xy.myshopify.com/products/2027-budget-planner-printable-money-reset-planner-annual-budget-debt-payoff-savings-challenges-monthly-finance-tracker-pdf", img: "img/2027-money-reset.jpg", shop: true, section: "Budget & Finance Planners" },
   { name: "Paycheck Budget Planner", sub: "Google Sheets & Excel · budget by paycheck", price: 14.99,
@@ -113,11 +122,11 @@ const PRODUCTS = [
   { name: "Christmas Budget & Gift List Planner 2026", sub: "29 printable pages · budget & gift list", price: 7,
     link: "https://ycu9g1-xy.myshopify.com/products/christmas-budget-gift-list-planner-2026", img: "img/christmas-budget.jpg", shop: true, section: "Holiday & Seasonal" },
   { name: "Pink Kawaii Study Girl Kit", sub: "48 stickers, study planner & wallpapers", price: 2.99,
-    link: "https://buy.stripe.com/8x2bJ00ys6HH8JN47d0ZW00", img: "img/kawaii-study-kit.jpg", shop: false, section: "Study & Kids" },
+    link: "https://ycu9g1-xy.myshopify.com/products/pink-kawaii-study-girl-kit", img: "img/kawaii-study-kit.jpg", shop: true, section: "Study & Kids" },
   { name: "Ayah Reflection Journal", sub: "Guided Quran reflection · US Letter & A4", price: 4,
-    link: "https://buy.stripe.com/9B6dR8ftm5DD9NR3390ZW04", img: "img/ayah-reflection-journal.jpg", shop: false, section: "Faith / Ramadan" },
+    link: "https://ycu9g1-xy.myshopify.com/products/ayah-reflection-journal", img: "img/ayah-reflection-journal.jpg", shop: true, section: "Faith / Ramadan" },
   { name: "Ramadan Planner", sub: "Undated printable · prayer, fasting & gratitude", price: 5,
-    link: "https://buy.stripe.com/4gM3cua923vv2lp3390ZW03", img: "img/ramadan-planner.jpg", shop: false, section: "Faith / Ramadan" }
+    link: "https://ycu9g1-xy.myshopify.com/products/ramadan-planner", img: "img/ramadan-planner.jpg", shop: true, section: "Faith / Ramadan" }
 ];
 
 const dubaiDate = () => new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Dubai", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
