@@ -29,6 +29,12 @@ jobs:
       - name: Decode binary assets (link-in-bio page at /links/)
         run: |
           if [ -d static ]; then
+            # Reassemble split base64 parts (foo.bin.b64.partaa, partab, ...) into foo.bin.b64
+            find static -name '*.b64.partaa' -print0 | while IFS= read -r -d '' f; do
+              base="${f%.b64.partaa}"
+              cat "${base}.b64.part"* > "${base}.b64"
+              rm -f "${base}.b64.part"*
+            done
             find static -name '*.b64' -print0 | while IFS= read -r -d '' f; do
               base64 -d "$f" > "${f%.b64}" && rm "$f"
             done
