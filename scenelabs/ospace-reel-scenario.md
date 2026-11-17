@@ -56,3 +56,14 @@ Real details from their posts: 55 m² private studio, 3 floor-to-ceiling windows
 - Ready but not run: 5 vertical video clips (VC1–VC5) and the composition node "FINAL VERTICAL – O'Space Reel"
 - Blocked: the ElevenLabs account ran out of credits (1,162 left of 131,000). The clips need about 71,000 credits.
 - To finish: top up credits, then in the flow select VC1–VC5, press Run, then run "FINAL VERTICAL – O'Space Reel"
+
+## Higgsfield (image-to-video) steps for the vertical version
+1. In the ElevenLabs flow, download frames V1–V5 (no credits needed) and the voiceover "Voiceover v2" plus the "Music bed".
+2. In Higgsfield, open Create Video (image-to-video), choose 9:16, about 5s each, and upload one frame per clip with the prompt below:
+   - V1: Slow cinematic upward tilt beneath the crystal chandelier, daylight sparkling through the crystals, pendants gently swaying.
+   - V2: Slow gimbal push-in into the bright white studio, sheer curtains softly billowing, daylight shifting across the white cyclorama.
+   - V3: Sheer white curtains flowing gently in front of the tall window, daylight glowing through the fabric, slow drift.
+   - V4: Slow lateral dolly along the flower-lined event table, rack focus between the bouquets, soft window light.
+   - V5: Slow pull-back revealing the styled birthday set, blush balloons gently bobbing, curtains moving softly.
+3. Put the 5 clips in order in CapCut (9:16) and add the voiceover, the music at about 20% volume, and the titles:
+   "Natural light. Clean space." / "55 m² · 3 daylight windows · Cyclorama" / "Shoots · Events · Celebrations" / "O'Space — Book your shoot" + "Film by SceneLabs"
