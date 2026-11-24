@@ -14,9 +14,10 @@
   --muted: #4a3558;
   --shadow: 0 16px 0 #140018;
   --radius: 24px;
-  --sans: "Nunito", "IBM Plex Sans Arabic", "Segoe UI", sans-serif;
-  --display: "Archivo Black", "IBM Plex Sans Arabic", sans-serif;
-  --fun: "Bangers", "Archivo Black", sans-serif;
+  --sans: "Poppins", "Cairo", "Segoe UI", sans-serif;
+  --display: "Fredoka", "Cairo", "Poppins", sans-serif;
+  --fun: "Fredoka", "Cairo", "Poppins", sans-serif;
+  --arabic: "Cairo", "Poppins", sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, monospace;
   --header-h: 74px;
 }
@@ -25,9 +26,11 @@ html { scroll-behavior: smooth; }
 html, body { margin: 0; padding: 0; }
 body {
   font-family: var(--sans);
+  font-size: 17px;
+  font-weight: 600;
   color: var(--ink);
   background: var(--paper);
-  line-height: 1.55;
+  line-height: 1.65;
   min-height: 100vh;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -69,8 +72,8 @@ a { color: inherit; }
   transform: rotate(-6deg);
 }
 .brand__text { display: flex; flex-direction: column; line-height: 1.05; }
-.brand__name { font-family: var(--display); font-size: 1.05rem; letter-spacing: -.02em; }
-.brand__tag { font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; color: var(--yellow); font-weight: 800; }
+.brand__name { font-family: var(--display); font-size: 1.08rem; font-weight: 700; letter-spacing: -.01em; }
+.brand__tag { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--yellow); font-weight: 700; }
 .header__tools { display: flex; align-items: center; gap: .35rem; margin-inline-start: auto; }
 .nav { display: flex; align-items: center; gap: .15rem; }
 .nav a, .lang {
@@ -135,27 +138,44 @@ html[dir="rtl"] .ticker__track { animation-name: marquee-rtl; }
   font-size: .78rem; letter-spacing: .16em; text-transform: uppercase;
   font-weight: 800; color: var(--pink); margin: 0 0 1rem; position: relative;
 }
-.hero .eyebrow { color: var(--yellow); }
-.hero h1, .store-hero h1, .prose h1 {
+.hero .eyebrow {
+  color: var(--yellow);
+  background: #140018;
+  border-radius: 999px;
+  padding: .4rem .8rem;
+  text-shadow: none;
+  box-shadow: 2px 2px 0 var(--pink);
+}
+.hero h1, .store-hero h1, .prose h1, .section__head h2, .card h3, .offer h2, .note h2, .faq h2, .prose h2 {
   font-family: var(--display);
-  font-weight: 400;
-  letter-spacing: -.03em;
-  line-height: 1.02;
+  font-weight: 700;
+  letter-spacing: -.02em;
+  line-height: 1.15;
 }
 .hero h1 {
-  font-size: clamp(2.15rem, 8vw, 4.6rem);
+  font-size: clamp(2.05rem, 7.4vw, 4.2rem);
   margin: 0 0 1rem;
   max-width: 16ch;
-  text-shadow: 4px 4px 0 #140018;
+  text-shadow: 0 2px 0 #140018, 4px 5px 0 #140018, 0 10px 22px rgba(20,0,24,.45);
 }
 .hero h1 em {
-  font-family: var(--fun);
+  font-family: var(--display);
   font-style: normal;
+  font-weight: 700;
   color: var(--yellow);
-  letter-spacing: .02em;
+  letter-spacing: 0;
+  text-shadow: 0 2px 0 #140018, 4px 5px 0 #140018;
 }
-.lede { font-size: 1.12rem; max-width: 42rem; margin: 0 0 1.3rem; color: var(--muted); font-weight: 700; }
-.hero .lede { color: #ffeef7; }
+.lede { font-size: 1.05rem; max-width: 42rem; margin: 0 0 1.3rem; color: var(--muted); font-weight: 600; line-height: 1.7; }
+.hero .lede {
+  color: #ffffff;
+  font-weight: 700;
+  background: rgba(20, 0, 24, .48);
+  border: 2px solid rgba(20, 0, 24, .7);
+  border-radius: 18px;
+  padding: .85rem 1.05rem;
+  text-shadow: 0 1px 2px rgba(20,0,24,.55);
+}
 .trust { display: flex; flex-wrap: wrap; gap: .55rem; margin: 0 0 1.5rem; }
 .pill {
   border: 2px solid #140018;
@@ -238,8 +258,9 @@ a.card:hover {
 .deal-badge {
   display: inline-flex; align-items: center; justify-content: center;
   font-family: var(--fun);
-  font-size: 1.15rem;
-  letter-spacing: .04em;
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: .02em;
   background: var(--yellow);
   color: var(--ink);
   border: 3px solid var(--ink);
@@ -341,13 +362,33 @@ details p { margin: .6rem 0 0; color: var(--muted); font-weight: 700; }
 .tiny { font-size: .86rem; color: #f4c7e0; font-weight: 700; }
 
 [hidden], [data-lang-block][hidden] { display: none !important; }
-html[lang="ar"] body { font-size: 1.02rem; }
-html[lang="ar"] .hero h1, html[lang="ar"] .store-hero h1, html[lang="ar"] .prose h1 {
-  letter-spacing: 0; line-height: 1.2;
+html[lang="ar"] body {
+  font-family: var(--arabic);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.75;
 }
-html[lang="ar"] .deal-badge { font-family: var(--display); }
+html[lang="ar"] .hero h1,
+html[lang="ar"] .store-hero h1,
+html[lang="ar"] .prose h1,
+html[lang="ar"] .section__head h2,
+html[lang="ar"] .card h3,
+html[lang="ar"] .offer h2,
+html[lang="ar"] .note h2,
+html[lang="ar"] .faq h2,
+html[lang="ar"] .prose h2,
+html[lang="ar"] .brand__name,
+html[lang="ar"] .deal-badge,
+html[lang="ar"] .hero h1 em {
+  font-family: var(--arabic);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.35;
+}
+html[lang="ar"] .deal-badge { font-weight: 800; }
 
 @media (min-width: 700px) {
+  body { font-size: 18px; }
   .grid { grid-template-columns: 1fr 1fr; }
   .hero { padding-top: 3.4rem; padding-bottom: 3rem; }
 }
