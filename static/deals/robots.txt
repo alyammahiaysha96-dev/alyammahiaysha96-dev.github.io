@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alyammahiaysha96-dev.github.io/deals/sitemap.xml

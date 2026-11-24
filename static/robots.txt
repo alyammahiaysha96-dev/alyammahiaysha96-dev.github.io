@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /dl/
 Sitemap: https://alyammahiaysha96-dev.github.io/sitemap.xml
+Sitemap: https://alyammahiaysha96-dev.github.io/deals/sitemap.xml

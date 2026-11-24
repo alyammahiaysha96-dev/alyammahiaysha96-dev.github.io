@@ -1,0 +1,333 @@
+{
+  "site": {
+    "name": "The Useful Edit",
+    "tagline": "Everyday Finds",
+    "nameAr": "The Useful Edit",
+    "taglineAr": "Everyday Finds",
+    "baseUrl": "https://alyammahiaysha96-dev.github.io/deals",
+    "pinterest": "https://www.pinterest.com/theusefuledit_ae/",
+    "pinterestHandle": "@theusefuledit_ae",
+    "email": "alyammahi.aysha96@gmail.com",
+    "lastBuilt": "2026-11-24",
+    "timezone": "Asia/Dubai",
+    "localeChecked": "24 November 2026",
+    "localeCheckedAr": "24 نوفمبر 2026"
+  },
+  "categories": [
+    {"id": "all", "en": "All stores", "ar": "كل المحلات"},
+    {"id": "fashion", "en": "Fashion", "ar": "أزياء"},
+    {"id": "luxury", "en": "Luxury", "ar": "فخامة"},
+    {"id": "shoes", "en": "Shoes & bags", "ar": "أحذية وحقائب"},
+    {"id": "baby", "en": "Baby & nursery", "ar": "أطفال ومشتل"},
+    {"id": "health", "en": "Health & wellness", "ar": "صحة وعناية"},
+    {"id": "marketplace", "en": "Marketplaces", "ar": "أسواق إلكترونية"}
+  ],
+  "stores": [
+    {
+      "slug": "gap",
+      "name": "GAP",
+      "nameAr": "جاب",
+      "category": "fashion",
+      "region": "UAE",
+      "regionAr": "الإمارات",
+      "homepage": "https://www.gap.ae/",
+      "saleUrl": "https://www.gap.ae/en/sale",
+      "affiliateUrl": "",
+      "aliases": ["gap uae", "جاب"],
+      "blurbEn": "Official GAP online store for the UAE, with clothing for women, men, kids and baby.",
+      "blurbAr": "الموقع الرسمي لجاب في الإمارات، بأزياء للنساء والرجال والأطفال والرضّع.",
+      "offers": [
+        {
+          "id": "gap-holiday-event",
+          "type": "sale",
+          "titleEn": "The Holiday Style Event: 30–50% off the season’s favourites",
+          "titleAr": "فعالية Holiday Style: خصم 30–50٪ على مختارات الموسم",
+          "code": "",
+          "detailEn": "Exclusions apply. Announced on the official GAP UAE homepage.",
+          "detailAr": "فيه استثناءات. الإعلان ظاهر في الصفحة الرئيسية الرسمية لجاب الإمارات.",
+          "sourceName": "GAP UAE official homepage",
+          "sourceUrl": "https://www.gap.ae/",
+          "checked": "2026-11-24"
+        },
+        {
+          "id": "gap-welcome10",
+          "type": "code",
+          "titleEn": "10% off your first online order",
+          "titleAr": "خصم 10٪ على أول طلب إلكتروني",
+          "code": "WELCOME10",
+          "detailEn": "Valid on full price items only, as stated on the official GAP UAE site.",
+          "detailAr": "يسري على القطع بسعرها الكامل فقط، حسب ما هو مكتوب في موقع جاب الإمارات الرسمي.",
+          "sourceName": "GAP UAE official homepage",
+          "sourceUrl": "https://www.gap.ae/",
+          "checked": "2026-11-24"
+        },
+        {
+          "id": "gap-app15",
+          "type": "code",
+          "titleEn": "15% off your first app order",
+          "titleAr": "خصم 15٪ على أول طلب من التطبيق",
+          "code": "APP15",
+          "detailEn": "App only. Valid on full priced items only, as stated on the official GAP UAE site.",
+          "detailAr": "للتطبيق فقط. يسري على القطع بسعرها الكامل فقط، حسب الموقع الرسمي.",
+          "sourceName": "GAP UAE official homepage",
+          "sourceUrl": "https://www.gap.ae/",
+          "checked": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "slug": "mamas-and-papas",
+      "name": "Mamas & Papas",
+      "nameAr": "ماماز آند باباز",
+      "category": "baby",
+      "region": "UAE",
+      "regionAr": "الإمارات",
+      "homepage": "https://mamasandpapas.ae/",
+      "saleUrl": "https://mamasandpapas.ae/",
+      "affiliateUrl": "",
+      "aliases": ["mamasandpapas", "mamas and papas", "ماماز"],
+      "blurbEn": "Official Mamas & Papas store for the UAE, with baby, nursery and parenting products.",
+      "blurbAr": "الموقع الرسمي لماماز آند باباز في الإمارات، لمنتجات الأطفال والمشتل.",
+      "offers": [
+        {
+          "id": "mamas-cyber-extra",
+          "type": "code",
+          "titleEn": "Cyber Week: up to 60% off, plus an extra 10% off with code EXTRA",
+          "titleAr": "أسبوع السايبر: خصم حتى 60٪، وزيادة 10٪ بكود EXTRA",
+          "code": "EXTRA",
+          "detailEn": "The official homepage banner reads “Cyber Week Up to 60% + Extra 10% Off. Code EXTRA.” The same page title also says “SALE 30-50% OFF,” and the meta description mentions “up to 50% discount sale.” Always check the basket before you pay, as exclusions may apply.",
+          "detailAr": "البنر الرسمي في الصفحة الرئيسية يقول: «Cyber Week Up to 60% + Extra 10% Off. Code EXTRA». عنوان الصفحة يذكر أيضاً «SALE 30-50% OFF»، ووصف الصفحة يذكر خصماً حتى 50٪. تأكدّي من السلة قبل الدفع، لأن فيه استثناءات محتملة.",
+          "sourceName": "Mamas & Papas UAE official homepage",
+          "sourceUrl": "https://mamasandpapas.ae/",
+          "checked": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "slug": "bloomingdales",
+      "name": "Bloomingdale's",
+      "nameAr": "بلومينغديلز",
+      "category": "luxury",
+      "region": "UAE",
+      "regionAr": "الإمارات",
+      "homepage": "https://bloomingdales.ae/",
+      "saleUrl": "https://bloomingdales.ae/sale-public/",
+      "affiliateUrl": "",
+      "aliases": ["bloomingdales uae", "بلومينغديلز"],
+      "blurbEn": "Official Bloomingdale's UAE store for luxury fashion, beauty and home.",
+      "blurbAr": "الموقع الرسمي لبلومينغديلز الإمارات للأزياء الفاخرة والجمال والمنزل.",
+      "offers": [
+        {
+          "id": "bloom-cyber-sale",
+          "type": "sale",
+          "titleEn": "Cyber Sale: up to 60% off, for a limited time",
+          "titleAr": "Cyber Sale: خصم حتى 60٪، لفترة محدودة",
+          "code": "",
+          "detailEn": "The official sale page is titled “Shop Black Friday 2026 Deals at Bloomingdales UAE | Up to 60% OFF,” with the heading “Cyber Sale,” and body text that says “now up to 60% OFF in our limited time Cyber Sale.” No public promo code was published on that page when we checked.",
+          "detailAr": "صفحة العروض الرسمية بعنوان «Shop Black Friday 2026 Deals at Bloomingdales UAE | Up to 60% OFF»، وعنوانها الداخلي «Cyber Sale»، والنص يقول إن الخصم حتى 60٪ لفترة محدودة. ما نشروا كود خصم عام في هالصفحة وقت ما شفناها.",
+          "sourceName": "Bloomingdale's UAE official sale page",
+          "sourceUrl": "https://bloomingdales.ae/sale-public/",
+          "checked": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "slug": "level-shoes",
+      "name": "Level Shoes",
+      "nameAr": "ليفل شوز",
+      "category": "shoes",
+      "region": "UAE",
+      "regionAr": "الإمارات",
+      "homepage": "https://www.levelshoes.com/",
+      "saleUrl": "https://www.levelshoes.com/sale/shoes.html",
+      "affiliateUrl": "",
+      "aliases": ["levelshoes", "level shoes uae"],
+      "blurbEn": "Official Level Shoes UAE store for designer shoes, bags and accessories.",
+      "blurbAr": "الموقع الرسمي لليفل شوز في الإمارات للأحذية والحقائب والإكسسوارات.",
+      "offers": [
+        {
+          "id": "level-sale-page",
+          "type": "sale",
+          "titleEn": "Official sale now on: selected shoes, bags and accessories are reduced",
+          "titleAr": "التخفيضات الرسمية شغّالة: قطع مختارة من الأحذية والحقائب والإكسسوارات مخفّضة",
+          "code": "",
+          "detailEn": "The official UAE sale page is live (heading: “Sale”). On 24 November 2026, listed sale items included reductions of 25%, 30%, 40% and 50% off. The page did not publish a sitewide “up to” headline or a public promo code when we checked. A code will be added here only if it appears on the official site.",
+          "detailAr": "صفحة التخفيضات الرسمية في الإمارات موجودة (عنوانها: Sale). في 24 نوفمبر 2026، ظهرت على القطع المعروضة تخفيضات بنسبة 25٪ و30٪ و40٪ و50٪. الصفحة ما نشرت عنواناً عاماً بنسبة قصوى، ولا كود خصم عام، وقت ما شفناها. بنضيف الكود هنا فقط إذا ظهر في الموقع الرسمي.",
+          "sourceName": "Level Shoes official UAE sale page",
+          "sourceUrl": "https://www.levelshoes.com/sale/shoes.html",
+          "checked": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "slug": "vogacloset",
+      "name": "VogaCloset",
+      "nameAr": "فوغاكلوسيت",
+      "category": "fashion",
+      "region": "UAE",
+      "regionAr": "الإمارات",
+      "homepage": "https://vogacloset.com/uae/en/",
+      "saleUrl": "https://vogacloset.com/uae/en/dynamic-category/cyber-deals/",
+      "affiliateUrl": "",
+      "aliases": ["voga closet", "فوغا"],
+      "blurbEn": "VogaCloset UAE store for women’s, men’s and kids’ fashion from European brands.",
+      "blurbAr": "متجر فوغاكلوسيت في الإمارات لأزياء النساء والرجال والأطفال من ماركات أوروبية.",
+      "offers": [
+        {
+          "id": "voga-bf-sitewide",
+          "type": "code",
+          "titleEn": "Black Friday sale is live: up to 90% off sitewide, with code Blackfriday",
+          "titleAr": "تخفيضات البلاك فرايدي شغّالة: خصم حتى 90٪ على الموقع، بكود Blackfriday",
+          "code": "Blackfriday",
+          "detailEn": "The official deals page heading is “Black Friday Deals.” The banner reads “THE BLACK FRIDAY SALE IS NOW LIVE! UP TO 90% OFF SITEWIDE!” Product cards on that page also show the code “Blackfriday” next to item discounts. Always check the basket, as the final percentage varies by item.",
+          "detailAr": "عنوان صفحة العروض الرسمية هو «Black Friday Deals»، والبنر يقول إن تخفيضات البلاك فرايدي شغّالة بخصم حتى 90٪ على الموقع. بطاقات المنتجات في نفس الصفحة تعرض كود Blackfriday بجانب خصم القطعة. تأكدّي من السلة، لأن النسبة تختلف من قطعة لثانية.",
+          "sourceName": "VogaCloset UAE official Black Friday / Cyber Deals page",
+          "sourceUrl": "https://vogacloset.com/uae/en/dynamic-category/cyber-deals/",
+          "checked": "2026-11-24"
+        },
+        {
+          "id": "voga-oh-polly",
+          "type": "sale",
+          "titleEn": "Oh Polly: up to 40% off",
+          "titleAr": "Oh Polly: خصم حتى 40٪",
+          "code": "",
+          "detailEn": "A separate banner on the same official deals page and on the Black Friday Discounts page reads “OH POLLY - UP TO 40% OFF.”",
+          "detailAr": "بنر منفصل في نفس صفحة العروض الرسمية، وفي صفحة Black Friday Discounts، يقول: «OH POLLY - UP TO 40% OFF».",
+          "sourceName": "VogaCloset UAE official Black Friday pages",
+          "sourceUrl": "https://vogacloset.com/uae/en/black-friday-discounts/",
+          "checked": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "slug": "aigner",
+      "name": "Aigner",
+      "nameAr": "أيغنر",
+      "category": "luxury",
+      "region": "UAE",
+      "regionAr": "الإمارات",
+      "homepage": "https://aignerme.com/en_ae/",
+      "saleUrl": "https://aignerme.com/en_ae/sale/",
+      "affiliateUrl": "",
+      "aliases": ["aigner uae", "aigner middle east", "أيغنر"],
+      "blurbEn": "Official Aigner Middle East store for the UAE: leather bags, watches, jewellery and accessories.",
+      "blurbAr": "الموقع الرسمي لأيغنر في الشرق الأوسط والإمارات: حقائب جلدية وساعات ومجوهرات وإكسسوارات.",
+      "offers": [
+        {
+          "id": "aigner-welcome",
+          "type": "code",
+          "titleEn": "10% off your first order",
+          "titleAr": "خصم 10٪ على أول طلب",
+          "code": "WELCOME10AE",
+          "detailEn": "The official homepage banner reads “AIGNER, Delivered to Your Door | 10% Off Your First Order: WELCOME10AE.”",
+          "detailAr": "البنر الرسمي في الصفحة الرئيسية يقول: «10% Off Your First Order: WELCOME10AE».",
+          "sourceName": "Aigner UAE official homepage",
+          "sourceUrl": "https://aignerme.com/en_ae/",
+          "checked": "2026-11-24"
+        },
+        {
+          "id": "aigner-sale",
+          "type": "sale",
+          "titleEn": "Official sale: selected bags, watches and jewellery are reduced",
+          "titleAr": "تخفيضات رسمية: حقائب وساعات ومجوهرات مختارة مخفّضة",
+          "code": "",
+          "detailEn": "The official sale page is live. On 24 November 2026, listed sale items included reductions from 40% to 70% off, including a “Deal of the Day” item at 70% off. The page did not publish a separate sitewide promo code when we checked.",
+          "detailAr": "صفحة التخفيضات الرسمية موجودة. في 24 نوفمبر 2026، ظهرت على القطع المعروضة تخفيضات من 40٪ إلى 70٪، ومنها قطعة «Deal of the Day» بخصم 70٪. ما نشروا كود خصم عام إضافي في هالصفحة وقت ما شفناها.",
+          "sourceName": "Aigner UAE official sale page",
+          "sourceUrl": "https://aignerme.com/en_ae/sale/",
+          "checked": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "slug": "aivi",
+      "name": "AIVI",
+      "nameAr": "آيفي",
+      "category": "fashion",
+      "region": "UAE & GCC",
+      "regionAr": "الإمارات والخليج",
+      "homepage": "https://en-ae.aivi.com/",
+      "saleUrl": "https://en-ae.aivi.com/",
+      "affiliateUrl": "",
+      "aliases": ["6thstreet", "6th street", "sixth street", "aivi", "سيكست ستريت"],
+      "formerly": "6thStreet",
+      "formerlyAr": "6thStreet",
+      "blurbEn": "AIVI is the official new name of 6thStreet, Apparel Group’s GCC fashion store.",
+      "blurbAr": "آيفي هو الاسم الجديد الرسمي لـ 6thStreet، متجر أباريل جروب للأزياء في الخليج.",
+      "offers": []
+    },
+    {
+      "slug": "iherb",
+      "name": "iHerb",
+      "nameAr": "آي هيرب",
+      "category": "health",
+      "region": "Ships to UAE",
+      "regionAr": "يشحن للإمارات",
+      "homepage": "https://www.iherb.com/",
+      "saleUrl": "https://www.iherb.com/c/deals",
+      "affiliateUrl": "",
+      "aliases": ["i herb", "آي هيرب"],
+      "blurbEn": "Official iHerb store for vitamins, supplements and natural health products, with delivery to the UAE.",
+      "blurbAr": "الموقع الرسمي لآي هيرب للفيتامينات والمكملات والمنتجات الطبيعية، مع الشحن للإمارات.",
+      "offers": [
+        {
+          "id": "iherb-deals-page",
+          "type": "sale",
+          "titleEn": "Official Deals page is live, with selected products reduced",
+          "titleAr": "صفحة العروض الرسمية موجودة، وفيها منتجات مختارة مخفّضة",
+          "code": "",
+          "detailEn": "The official iHerb Deals page (heading: “Deals”) lists reduced products. On 24 November 2026, examples on that page included item discounts such as 40%, 50%, 69% and 80% off. Those figures are for individual products, not a published sitewide campaign headline. No public promo code was published on that page when we checked.",
+          "detailAr": "صفحة العروض الرسمية في آي هيرب (عنوانها: Deals) تعرض منتجات مخفّضة. في 24 نوفمبر 2026، ظهرت أمثلة على خصم 40٪ و50٪ و69٪ و80٪ على قطع معيّنة. هالأرقام لقطع محددة، مو عنوان حملة على كل الموقع. ما نشروا كود خصم عام في هالصفحة وقت ما شفناها.",
+          "sourceName": "iHerb official Deals page",
+          "sourceUrl": "https://www.iherb.com/c/deals",
+          "checked": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "slug": "shein",
+      "name": "SHEIN",
+      "nameAr": "شي إن",
+      "category": "fashion",
+      "region": "UAE & GCC",
+      "regionAr": "الإمارات والخليج",
+      "homepage": "https://www.shein.com/",
+      "saleUrl": "https://www.shein.com/",
+      "affiliateUrl": "",
+      "aliases": ["شي إن", "shein uae"],
+      "blurbEn": "SHEIN official store for women’s, men’s and kids’ fashion, with GCC delivery options.",
+      "blurbAr": "الموقع الرسمي لشي إن لأزياء النساء والرجال والأطفال، مع خيارات التوصيل في الخليج.",
+      "offers": []
+    },
+    {
+      "slug": "namshi",
+      "name": "Namshi",
+      "nameAr": "نمشي",
+      "category": "fashion",
+      "region": "UAE",
+      "regionAr": "الإمارات",
+      "homepage": "https://www.namshi.com/uae-en/",
+      "saleUrl": "https://www.namshi.com/uae-en/",
+      "affiliateUrl": "",
+      "aliases": ["نمشي"],
+      "blurbEn": "Namshi official UAE store for fashion, shoes and bags.",
+      "blurbAr": "الموقع الرسمي لنمشي في الإمارات للأزياء والأحذية والحقائب.",
+      "offers": []
+    },
+    {
+      "slug": "noon",
+      "name": "noon",
+      "nameAr": "نون",
+      "category": "marketplace",
+      "region": "UAE",
+      "regionAr": "الإمارات",
+      "homepage": "https://www.noon.com/uae-en/",
+      "saleUrl": "https://www.noon.com/uae-en/",
+      "affiliateUrl": "",
+      "aliases": ["نون"],
+      "blurbEn": "noon official UAE marketplace for electronics, fashion, beauty, home and more.",
+      "blurbAr": "موقع نون الرسمي في الإمارات للإلكترونيات والأزياء والجمال والمنزل وأكثر.",
+      "offers": []
+    }
+  ]
+}
