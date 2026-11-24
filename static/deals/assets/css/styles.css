@@ -215,6 +215,18 @@ html[dir="rtl"] .ticker__track { animation-name: marquee-rtl; }
 .section { padding: 1.5rem 0 3.5rem; background: var(--paper); }
 .section__head { display: flex; justify-content: space-between; align-items: end; gap: 1rem; margin: 0 0 1.2rem; }
 .section__head h2 { font-family: var(--display); font-size: clamp(1.6rem, 4vw, 2.2rem); margin: 0; }
+.region-tabs {
+  display: flex; flex-wrap: wrap; gap: .5rem;
+  margin: 0 0 1.15rem;
+}
+.region-tab {
+  border: 3px solid var(--ink); background: #fff; color: var(--ink);
+  border-radius: 999px; padding: .55rem 1.05rem;
+  font: inherit; font-size: 1rem; font-weight: 800; cursor: pointer;
+  box-shadow: 3px 3px 0 var(--ink);
+}
+.region-tab:hover { background: var(--yellow); }
+.region-tab.is-on { background: var(--pink); color: #fff; }
 .muted { color: var(--muted); font-weight: 700; }
 .grid { display: grid; grid-template-columns: 1fr; gap: 1rem; }
 .card {

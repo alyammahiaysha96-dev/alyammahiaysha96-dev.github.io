@@ -120,6 +120,8 @@
     const empty = document.getElementById("emptyState");
     if (!grid) return;
     let cat = "all";
+    let market = "all";
+    const regions = document.getElementById("regionTabs");
 
     function apply() {
       const q = (search ? search.value : "").trim().toLowerCase();
@@ -127,9 +129,11 @@
       grid.querySelectorAll("[data-store]").forEach((card) => {
         const hay = (card.getAttribute("data-search") || "").toLowerCase();
         const c = card.getAttribute("data-cat") || "";
+        const m = (card.getAttribute("data-market") || "gcc").split(/\s+/);
         const okCat = cat === "all" || c === cat;
+        const okMarket = market === "all" || m.includes(market);
         const okQ = !q || hay.includes(q);
-        const on = okCat && okQ;
+        const on = okCat && okMarket && okQ;
         card.hidden = !on;
         if (on) shown += 1;
       });
@@ -143,6 +147,18 @@
         if (!btn) return;
         cat = btn.getAttribute("data-cat");
         chips.querySelectorAll("[data-cat]").forEach((c) => {
+          c.classList.toggle("is-on", c === btn);
+          c.setAttribute("aria-pressed", c === btn ? "true" : "false");
+        });
+        apply();
+      });
+    }
+    if (regions) {
+      regions.addEventListener("click", (e) => {
+        const btn = e.target.closest("[data-market]");
+        if (!btn) return;
+        market = btn.getAttribute("data-market");
+        regions.querySelectorAll("[data-market]").forEach((c) => {
           c.classList.toggle("is-on", c === btn);
           c.setAttribute("aria-pressed", c === btn ? "true" : "false");
         });
