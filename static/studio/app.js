@@ -5,21 +5,20 @@
 
   /* ---------- real content (public counts, 24 Nov 2026) ---------- */
   const tiktok = [
-    { id: '7638351309355207958', v: '3.1M', l: '160.2K', en: 'Betrayal & Revenge', ar: 'الخيانة والانتقام' },
-    { id: '7641835466114829601', v: '2.2M', l: '121.1K', en: 'The Pomegranate Confrontation', ar: 'مواجهة الرمانة' },
-    { id: '7639297217718963489', v: '2.2M', l: '109K', en: 'The Lemon Wedding', ar: 'عرس الليمونة' },
-    { id: '7642637857676430624', v: '1.8M', l: '84.6K', en: 'The Hospital Visit', ar: 'زيارة المستشفى' },
-    { id: '7645099027117149473', v: '1.7M', l: '76.9K', en: 'Rain on the Window', ar: 'مطر على الشباك' },
-    { id: '7641271912630390048', v: '1.7M', l: '104.7K', en: 'A Broken Heart', ar: 'قلب مكسور' },
-    { id: '7640445759028006176', v: '1.2M', l: '69.5K', en: 'The Villain Eggplant', ar: 'البتنجانة الشريرة' },
-    { id: '7641946772889242913', v: '1.0M', l: '68.6K', en: 'The Study Room', ar: 'غرفة المكتب' },
-    { id: '7642962209236077856', v: '924.3K', l: '58.8K', en: 'The Clinic', ar: 'في العيادة' },
-    { id: '7638963648274222369', v: '851.3K', l: '29.7K', en: 'Kitchen Showdown', ar: 'مواجهة في المطبخ' },
-    { id: '7641356705468534048', v: '691.2K', l: '30.6K', en: 'The Cucumber Twist', ar: 'حكاية الخيارة' },
-    { id: '7638182492297563414', v: '659.1K', l: '32.2K', en: 'The Living Room Secret', ar: 'سرّ الصالة' }
+    { k: 'ig', id: 'DgBky_dgJ4z', img: 'assets/tt/blender.jpg', v: '234,012', u: 'reached', uAr: 'حساب وصل له', l: '', en: 'Never Scrub Your Blender Again', ar: 'لا تفركين الخلاط بعد اليوم' },
+    { id: '7707528041836170518', v: '7,795', l: '72', en: 'How Dentists Fix a Cavity in 8 Steps', ar: 'كيف يعالج طبيب الأسنان التسوس' },
+    { id: '7649830890411085088', v: '5,766', l: '62', en: 'Every Product Has a Story', ar: 'كل منتج عنده حكاية' },
+    { id: '7649827835141459232', v: '3,659', l: '33', en: 'What If Ads Didn\u2019t Need Words?', ar: 'لو الإعلان ما يحتاج كلام؟' },
+    { id: '7707593994121022742', v: '2,892', l: '15', en: 'Your Lint Screen Is Suffocating', ar: 'فلتر النشافة يختنق' },
+    { id: '7649850768945581345', v: '2,529', l: '39', en: 'Pepper City', ar: 'مدينة الفلفل' },
+    { id: '7707578543919598870', v: '2,283', l: '39', en: 'Your Spinach Is Losing Its Iron', ar: 'السبانخ يخسر الحديد' },
+    { id: '7708567857650535702', v: '2,108', l: '23', en: 'These Noodles Cooked Themselves', ar: 'نودلز طبخت نفسها' },
+    { id: '7707238113088867607', v: '2,084', l: '28', en: 'Red Wine Stain Panic? Salt Saves It', ar: 'بقعة على القميص؟ الملح ينقذها' },
+    { id: '7706701075444731158', v: '2,077', l: '41', en: 'We Made Popcorn in a Volcano', ar: 'فشار في بركان' },
+    { id: '7706342300389018882', v: '1,619', l: '22', en: 'A Paper Bag Saves the Tablecloth', ar: 'كيس ورق ينقذ المفرش' },
+    { id: '7709681243662699798', v: '1,035', l: '18', en: 'The Sponge in Your Sink Is Alive', ar: 'إسفنجة المطبخ حيّة' }
   ];
   const rail = [
-    { t: 'ig', id: 'DgBky_dgJ4z', img: 'assets/ig/DgBky_dgJ4z.jpg', stat: '234K reached', statAr: 'وصل ٢٣٤ ألف حساب', en: 'Never Scrub Your Blender Again', ar: 'لا تفركين الخلاط بعد اليوم' },
     { t: 'ig', id: 'DfpWs8HgWwF', img: 'assets/ig/DfpWs8HgWwF.jpg', stat: '60K reached', statAr: 'وصل ٦٠ ألف حساب', en: 'How Dentists Fix a Cavity in 8 Steps', ar: 'كيف يعالج طبيب الأسنان التسوس' },
     { t: 'yt', id: 'zeTdwPatYuU', img: 'assets/yt/zeTdwPatYuU.jpg', stat: '2.7K views', statAr: '٢٫٧ ألف مشاهدة', en: 'Red Wine Stain Panic? Salt Saves It', ar: 'بقعة على القميص؟ الملح ينقذها' },
     { t: 'yt', id: 'RjcT8-HzYA8', img: 'assets/yt/RjcT8-HzYA8.jpg', stat: '1.6K views', statAr: '١٫٦ ألف مشاهدة', en: 'Your Spinach Is Losing Its Iron', ar: 'السبانخ يخسر الحديد' },
@@ -45,10 +44,10 @@
     stripEye: 'من داخل الاستوديو',
     s1: 'كبدك مع المشروبات الغازية', s2: 'مخك الساعة ١ الفجر', s3: 'كليتك ضد الملح الزايد', s4: 'زجاج الشاور الضبابي', s5: 'مروحة السقف المغبّرة', s6: 'أكلات تكره الثلاجة', s7: 'أكلات تحبها معدتك', s8: 'السلك اللي دايمًا يطيح',
     c3Eye: 'الفصل الثالث · الدراما', c3Title: 'شدّة من أول ثانية. ومفاجأة قبل ما يعيد المقطع.',
-    c3Text: 'قصتنا المعروفة: شدّة، مشكلة حقيقية، لحظة مشاعر، وحل سريع. وفي تيك توك أخذناها أبعد بدراما الفواكه العربية السينمائية: حب وخيانة وانتقام، أبطالها فراولة وموز. والمشاهدات وصلت بالملايين.',
-    wEye: 'الفصل الرابع · الانتشار', wTitle: 'الأفلام اللي الناس ما قدروا يوقفون عنها.',
-    wText: 'أكثر مقاطعنا مشاهدة على @scenelabs. اضغط على أي فيلم وشغّله هنا.',
-    wNote: 'أرقام المشاهدات والإعجابات هي الأرقام العامة الظاهرة على تيك توك بتاريخ ٢٤ نوفمبر ٢٠٢٦.',
+    c3Text: 'قصتنا المعروفة: شدّة، مشكلة حقيقية، لحظة مشاعر، وحل سريع. خلاط يخاف من المغسلة، فلتر نشافة يلهث، وإسفنجة طلعت حيّة. دراما صغيرة في أقل من دقيقة، يشاركها الناس ويحفظونها.',
+    wEye: 'الفصل الرابع · الانتشار', wTitle: 'أفلام مصممة توقف التمرير.',
+    wText: 'أكثر أفلامنا الإنجليزية مشاهدة على تيك توك وإنستغرام. اضغط على أي فيلم وشغّله هنا.',
+    wNote: 'أرقام تيك توك هي المشاهدات والإعجابات العامة، ورقم إنستغرام هو عدد الحسابات اللي وصل لها الريل حسب لوحة النشر، بتاريخ ٢٤ نوفمبر ٢٠٢٦.',
     rEye: 'الشوريل ٢٠٢٦', rTitle: 'أربعين ثانية. عشر شخصيات. صوت واحد.',
     rText: 'مقتطفات من سلسلة «أشياء تتكلم»: أعضاء الجسم والأكل وأغراض البيت، كل واحد عنده مشكلة وحل. شغّل الصوت.',
     rPlay: 'شغّل مع الصوت',
@@ -78,17 +77,20 @@
   /* ---------- build TikTok wall ---------- */
   const wall = $('#tiktokWall');
   tiktok.forEach((x, i) => {
+    const k = x.k || 'tt';
     const b = document.createElement('button');
     b.type = 'button';
     b.className = 'tile reveal' + (i === 0 ? ' tile--hero' : '');
-    b.dataset.kind = 'tt'; b.dataset.id = x.id;
-    b.innerHTML = `<img src="assets/tt/${x.id}.jpg" alt="" loading="lazy" decoding="async">
+    b.dataset.kind = k; b.dataset.id = x.id;
+    const unitEn = x.u || 'views', unitAr = x.uAr || 'مشاهدة';
+    b.innerHTML = `<img src="${x.img || 'assets/tt/' + x.id + '.jpg'}" alt="" loading="lazy" decoding="async">
       <span class="tile__rank">${String(i + 1).padStart(2, '0')}</span>
+      <span class="chip">${k === 'ig' ? 'Instagram' : 'TikTok'}</span>
       <span class="tile__play" aria-hidden="true"></span>
-      <span class="tile__meta"><span class="tile__views">${x.v}<small class="lbl-views">views</small></span>
+      <span class="tile__meta"><span class="tile__views">${x.v}<small class="lbl-unit" data-en="${unitEn}" data-ar="${unitAr}">${unitEn}</small></span>
       <span class="tile__title" data-en="${x.en}" data-ar="${x.ar}">${x.en}</span>
-      <span class="tile__likes">♥ ${x.l}</span></span>`;
-    b.setAttribute('aria-label', `Play TikTok: ${x.en}, ${x.v} views`);
+      ${x.l ? `<span class="tile__likes">♥ ${x.l}</span>` : ''}</span>`;
+    b.setAttribute('aria-label', `Play ${k === 'ig' ? 'Instagram reel' : 'TikTok'}: ${x.en}, ${x.v} ${unitEn}`);
     wall.appendChild(b);
   });
   const railEl = $('#rail');
@@ -112,7 +114,6 @@
     document.documentElement.dir = ar ? 'rtl' : 'ltr';
     $$('[data-i18n]').forEach(el => { const k = el.dataset.i18n; el.textContent = ar ? (AR[k] || EN[k]) : EN[k]; });
     $$('[data-en]').forEach(el => { el.textContent = ar ? el.dataset.ar : el.dataset.en; });
-    $$('.lbl-views').forEach(el => { el.textContent = ar ? 'مشاهدة' : 'views'; });
     $('#langToggle').setAttribute('aria-label', ar ? 'Switch language to English' : 'Switch language to Arabic');
     $('#mailBtn').href = 'mailto:alyammahi.aysha96@gmail.com?subject=' + encodeURIComponent(ar ? 'تعاون مع SceneLabs' : 'Collaboration with SceneLabs');
     try { localStorage.setItem('sl-lang', lang); } catch (e) {}

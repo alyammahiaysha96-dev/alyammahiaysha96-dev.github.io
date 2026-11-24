@@ -221,3 +221,11 @@ html[dir=rtl] .ticker em{font-family:var(--sans)}
 .strip__sticky{direction:ltr}
 html[dir=rtl] .strip__head{direction:rtl}
 .strip__count{direction:ltr;unicode-bidi:isolate}
+.tile .chip{top:12px}
+@media(max-width:599px){
+  .stats{grid-template-columns:repeat(2,1fr);border-radius:18px}
+  .stat{min-height:0;padding:18px 14px;gap:4px}
+  .stat__plat{font-size:9.5px;letter-spacing:.14em;line-height:1.35}
+  .stat b{font-size:clamp(26px,8.2vw,36px)}
+  .stat p{font-size:13px;line-height:1.4}
+}
