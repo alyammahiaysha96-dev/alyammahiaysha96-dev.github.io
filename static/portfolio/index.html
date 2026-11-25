@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AYSHA — Digital Illustration &amp; AI Art Portfolio</title>
+<meta name="description" content="Storybook animals, seasonal and fantasy scenes. Created with generative AI tools.">
+<meta name="theme-color" content="#651538">
+<link rel="canonical" href="https://alyammahiaysha96-dev.github.io/portfolio/">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AYSHA — Digital Illustration &amp; AI Art Portfolio">
+<meta property="og:description" content="Storybook animals, seasonal and fantasy scenes. Created with generative AI tools.">
+<meta property="og:url" content="https://alyammahiaysha96-dev.github.io/portfolio/">
+<meta property="og:image" content="https://alyammahiaysha96-dev.github.io/portfolio/img/fantasy-floating-sky-islands-at-sunrise.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AYSHA — Digital Illustration &amp; AI Art Portfolio">
+<meta name="twitter:description" content="Storybook animals, seasonal and fantasy scenes. Created with generative AI tools.">
+<meta name="twitter:image" content="https://alyammahiaysha96-dev.github.io/portfolio/img/fantasy-floating-sky-islands-at-sunrise.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#FBF6EE;
+  --burgundy:#651538;
+  --gold:#C9A45C;
+  --ink:#2b1a20;
+  --muted:#7a5d66;
+  --card:#fffaf4;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--cream);
+  color:var(--ink);
+  font-family:"Source Sans 3", "Segoe UI", sans-serif;
+  line-height:1.5;
+  min-height:100vh;
+}
+.wrap{max-width:1240px;margin:0 auto;padding:48px 20px 80px}
+header{text-align:center;margin-bottom:48px}
+.mark{
+  display:inline-block;
+  width:48px;height:2px;
+  background:var(--gold);
+  margin-bottom:20px;
+}
+h1{
+  font-family:"Cormorant Garamond", Georgia, serif;
+  font-weight:600;
+  font-size:clamp(1.75rem, 3.6vw, 2.75rem);
+  color:var(--burgundy);
+  letter-spacing:.02em;
+  line-height:1.2;
+  margin-bottom:14px;
+}
+.note{
+  color:var(--muted);
+  font-size:1.05rem;
+  max-width:36em;
+  margin:0 auto;
+}
+#gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(260px, 1fr));
+  gap:28px 22px;
+}
+.card{
+  background:var(--card);
+  border:1px solid rgba(201,164,92,.28);
+  border-radius:8px;
+  overflow:hidden;
+  box-shadow:0 8px 24px rgba(101,21,56,.05);
+}
+.card a{display:block;background:#efe6d8}
+.card img{
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:5/6;
+  object-fit:cover;
+  vertical-align:middle;
+}
+.card figcaption{
+  font-family:"Cormorant Garamond", Georgia, serif;
+  font-size:1.05rem;
+  font-weight:600;
+  color:var(--burgundy);
+  padding:14px 16px 16px;
+  line-height:1.35;
+}
+.lb{
+  position:fixed;
+  inset:0;
+  z-index:40;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:24px;
+}
+.lb:target{display:flex}
+.lb-bg{
+  position:absolute;inset:0;
+  background:rgba(43,26,32,.78);
+}
+.lb figure{
+  position:relative;
+  z-index:1;
+  max-width:min(900px, 100%);
+  max-height:100%;
+  background:var(--card);
+  border-radius:8px;
+  border:1px solid var(--gold);
+  overflow:auto;
+  box-shadow:0 20px 60px rgba(0,0,0,.35);
+}
+.lb img{
+  display:block;
+  max-width:100%;
+  max-height:78vh;
+  width:auto;
+  height:auto;
+  margin:0 auto;
+}
+.lb figcaption{
+  font-family:"Cormorant Garamond", Georgia, serif;
+  color:var(--burgundy);
+  font-weight:600;
+  padding:12px 20px 4px;
+  text-align:center;
+}
+.lb-x{
+  display:block;
+  text-align:center;
+  color:var(--gold);
+  text-decoration:none;
+  font-size:.85rem;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  padding:8px 16px 16px;
+  font-weight:500;
+}
+.lb-x:hover{color:var(--burgundy)}
+footer{
+  margin-top:64px;
+  text-align:center;
+  color:var(--muted);
+  font-size:.85rem;
+}
+footer .rule{
+  display:block;
+  width:40px;height:1px;
+  background:var(--gold);
+  margin:0 auto 16px;
+}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="mark" aria-hidden="true"></span>
+      <h1>AYSHA — Digital Illustration &amp; AI Art Portfolio</h1>
+      <p class="note">Storybook animals, seasonal and fantasy scenes. Created with generative AI tools.</p>
+    </header>
+    <main id="gallery">
+    <figure class="card">
+      <a href="#arabian-desert-camel-caravan-under-starry-night">
+        <img src="img/arabian-desert-camel-caravan-under-starry-night.jpg" alt="Arabian Desert Camel Caravan Under a Crescent Moon" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Arabian Desert Camel Caravan Under a Crescent Moon</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#fantasy-floating-sky-islands-at-sunrise">
+        <img src="img/fantasy-floating-sky-islands-at-sunrise.jpg" alt="Fantasy Floating Sky Islands at Golden Sunrise" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Fantasy Floating Sky Islands at Golden Sunrise</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#rainy-kyoto-lantern-street-red-umbrella">
+        <img src="img/rainy-kyoto-lantern-street-red-umbrella.jpg" alt="Rainy Kyoto Lantern Street with a Red Umbrella" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Rainy Kyoto Lantern Street with a Red Umbrella</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#north-atlantic-island-cliffs-sunrise-seascape">
+        <img src="img/north-atlantic-island-cliffs-sunrise-seascape.jpg" alt="North Atlantic Island Cliffs at Sunrise" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>North Atlantic Island Cliffs at Sunrise</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#retro-space-airliner-flying-past-ringed-planet">
+        <img src="img/retro-space-airliner-flying-past-ringed-planet.jpg" alt="Retro Space Airliner Flying Past a Ringed Planet" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Retro Space Airliner Flying Past a Ringed Planet</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#christmas-bunny-reading-book-in-santa-hat">
+        <img src="img/christmas-bunny-reading-book-in-santa-hat.jpg" alt="Christmas Bunny Reading a Book in a Santa Hat" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Christmas Bunny Reading a Book in a Santa Hat</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#fox-reading-inside-christmas-snow-globe">
+        <img src="img/fox-reading-inside-christmas-snow-globe.jpg" alt="Fox Reading Inside a Christmas Snow Globe" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Fox Reading Inside a Christmas Snow Globe</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#christmas-mouse-postman-holding-holiday-letter">
+        <img src="img/christmas-mouse-postman-holding-holiday-letter.jpg" alt="Christmas Mouse Postman Holding a Holiday Letter" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Christmas Mouse Postman Holding a Holiday Letter</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#polar-bear-reading-in-christmas-book-fort">
+        <img src="img/polar-bear-reading-in-christmas-book-fort.jpg" alt="Polar Bear Reading in a Cozy Christmas Book Fort" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Polar Bear Reading in a Cozy Christmas Book Fort</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#robin-bird-reading-book-in-winter-scarf">
+        <img src="img/robin-bird-reading-book-in-winter-scarf.jpg" alt="Robin Bird Reading a Book in a Winter Scarf" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Robin Bird Reading a Book in a Winter Scarf</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#reindeer-librarian-holding-stack-of-christmas-books">
+        <img src="img/reindeer-librarian-holding-stack-of-christmas-books.jpg" alt="Reindeer Librarian Holding a Stack of Christmas Books" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Reindeer Librarian Holding a Stack of Christmas Books</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#penguin-reading-by-candlelight-in-winter-hat">
+        <img src="img/penguin-reading-by-candlelight-in-winter-hat.jpg" alt="Penguin Reading by Candlelight in a Winter Hat" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Penguin Reading by Candlelight in a Winter Hat</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#raccoon-wrapping-christmas-gifts-beside-books">
+        <img src="img/raccoon-wrapping-christmas-gifts-beside-books.jpg" alt="Raccoon Wrapping Christmas Gifts Beside Books" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Raccoon Wrapping Christmas Gifts Beside Books</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#arctic-hares-reading-books-new-year-2027">
+        <img src="img/arctic-hares-reading-books-new-year-2027.jpg" alt="Arctic Hares Reading Books on New Year 2027" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Arctic Hares Reading Books on New Year 2027</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#dormouse-reading-in-starlit-advent-library-nook">
+        <img src="img/dormouse-reading-in-starlit-advent-library-nook.jpg" alt="Dormouse Reading in a Starlit Advent Library Nook" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Dormouse Reading in a Starlit Advent Library Nook</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#badger-reading-book-in-cozy-armchair-with-tea">
+        <img src="img/badger-reading-book-in-cozy-armchair-with-tea.jpg" alt="Badger Reading a Book in a Cozy Armchair with Tea" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Badger Reading a Book in a Cozy Armchair with Tea</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#frog-reading-book-under-red-mushroom">
+        <img src="img/frog-reading-book-under-red-mushroom.jpg" alt="Frog Reading a Book Under a Red Mushroom" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Frog Reading a Book Under a Red Mushroom</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#luna-moth-reading-book-on-stack-of-books">
+        <img src="img/luna-moth-reading-book-on-stack-of-books.jpg" alt="Luna Moth Reading a Book on a Stack of Books" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Luna Moth Reading a Book on a Stack of Books</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#poet-mouse-writing-with-quill-by-candlelight">
+        <img src="img/poet-mouse-writing-with-quill-by-candlelight.jpg" alt="Poet Mouse Writing with a Quill by Candlelight" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Poet Mouse Writing with a Quill by Candlelight</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#white-bunny-hugging-giant-green-cabbage">
+        <img src="img/white-bunny-hugging-giant-green-cabbage.jpg" alt="White Bunny Hugging a Giant Green Cabbage" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>White Bunny Hugging a Giant Green Cabbage</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#hedgehog-gardener-with-potted-rosemary-herb">
+        <img src="img/hedgehog-gardener-with-potted-rosemary-herb.jpg" alt="Hedgehog Gardener with a Potted Rosemary Herb" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Hedgehog Gardener with a Potted Rosemary Herb</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#mouse-pouring-herbal-tea-in-apothecary">
+        <img src="img/mouse-pouring-herbal-tea-in-apothecary.jpg" alt="Mouse Pouring Herbal Tea in an Apothecary" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Mouse Pouring Herbal Tea in an Apothecary</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#possum-pastry-chef-holding-fresh-croissants">
+        <img src="img/possum-pastry-chef-holding-fresh-croissants.jpg" alt="Possum Pastry Chef Holding Fresh Croissants" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Possum Pastry Chef Holding Fresh Croissants</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#raccoon-baker-holding-fresh-sourdough-loaf">
+        <img src="img/raccoon-baker-holding-fresh-sourdough-loaf.jpg" alt="Raccoon Baker Holding a Fresh Sourdough Loaf" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Raccoon Baker Holding a Fresh Sourdough Loaf</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#astronaut-cat-sleeping-on-purple-planet">
+        <img src="img/astronaut-cat-sleeping-on-purple-planet.jpg" alt="Astronaut Cat Sleeping on a Purple Planet" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Astronaut Cat Sleeping on a Purple Planet</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#raccoon-roasting-marshmallows-at-forest-campfire">
+        <img src="img/raccoon-roasting-marshmallows-at-forest-campfire.jpg" alt="Raccoon Roasting Marshmallows at a Forest Campfire" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Raccoon Roasting Marshmallows at a Forest Campfire</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#sloth-hiking-mountain-trail-with-backpack">
+        <img src="img/sloth-hiking-mountain-trail-with-backpack.jpg" alt="Sloth Hiking a Mountain Trail with a Backpack" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Sloth Hiking a Mountain Trail with a Backpack</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#mountain-goat-drinking-coffee-on-rocky-summit">
+        <img src="img/mountain-goat-drinking-coffee-on-rocky-summit.jpg" alt="Mountain Goat Drinking Coffee on a Rocky Summit" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Mountain Goat Drinking Coffee on a Rocky Summit</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#astronaut-otter-eating-banana-in-space">
+        <img src="img/astronaut-otter-eating-banana-in-space.jpg" alt="Astronaut Otter Eating a Banana in Space" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Astronaut Otter Eating a Banana in Space</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#squirrel-stirring-apple-butter-in-copper-pot">
+        <img src="img/squirrel-stirring-apple-butter-in-copper-pot.jpg" alt="Squirrel Stirring Apple Butter in a Copper Pot" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Squirrel Stirring Apple Butter in a Copper Pot</figcaption>
+    </figure>
+    <figure class="card">
+      <a href="#pangolin-reading-open-book-by-candlelight">
+        <img src="img/pangolin-reading-open-book-by-candlelight.jpg" alt="Pangolin Reading an Open Book by Candlelight" loading="lazy" width="800" height="960">
+      </a>
+      <figcaption>Pangolin Reading an Open Book by Candlelight</figcaption>
+    </figure>
+    </main>
+    <footer>
+      <span class="rule" aria-hidden="true"></span>
+      Digital illustration portfolio
+    </footer>
+  </div>
+  <div id="arabian-desert-camel-caravan-under-starry-night" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/arabian-desert-camel-caravan-under-starry-night.jpg" alt="Arabian Desert Camel Caravan Under a Crescent Moon">
+      <figcaption>Arabian Desert Camel Caravan Under a Crescent Moon</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="fantasy-floating-sky-islands-at-sunrise" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/fantasy-floating-sky-islands-at-sunrise.jpg" alt="Fantasy Floating Sky Islands at Golden Sunrise">
+      <figcaption>Fantasy Floating Sky Islands at Golden Sunrise</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="rainy-kyoto-lantern-street-red-umbrella" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/rainy-kyoto-lantern-street-red-umbrella.jpg" alt="Rainy Kyoto Lantern Street with a Red Umbrella">
+      <figcaption>Rainy Kyoto Lantern Street with a Red Umbrella</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="north-atlantic-island-cliffs-sunrise-seascape" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/north-atlantic-island-cliffs-sunrise-seascape.jpg" alt="North Atlantic Island Cliffs at Sunrise">
+      <figcaption>North Atlantic Island Cliffs at Sunrise</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="retro-space-airliner-flying-past-ringed-planet" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/retro-space-airliner-flying-past-ringed-planet.jpg" alt="Retro Space Airliner Flying Past a Ringed Planet">
+      <figcaption>Retro Space Airliner Flying Past a Ringed Planet</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="christmas-bunny-reading-book-in-santa-hat" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/christmas-bunny-reading-book-in-santa-hat.jpg" alt="Christmas Bunny Reading a Book in a Santa Hat">
+      <figcaption>Christmas Bunny Reading a Book in a Santa Hat</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="fox-reading-inside-christmas-snow-globe" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/fox-reading-inside-christmas-snow-globe.jpg" alt="Fox Reading Inside a Christmas Snow Globe">
+      <figcaption>Fox Reading Inside a Christmas Snow Globe</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="christmas-mouse-postman-holding-holiday-letter" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/christmas-mouse-postman-holding-holiday-letter.jpg" alt="Christmas Mouse Postman Holding a Holiday Letter">
+      <figcaption>Christmas Mouse Postman Holding a Holiday Letter</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="polar-bear-reading-in-christmas-book-fort" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/polar-bear-reading-in-christmas-book-fort.jpg" alt="Polar Bear Reading in a Cozy Christmas Book Fort">
+      <figcaption>Polar Bear Reading in a Cozy Christmas Book Fort</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="robin-bird-reading-book-in-winter-scarf" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/robin-bird-reading-book-in-winter-scarf.jpg" alt="Robin Bird Reading a Book in a Winter Scarf">
+      <figcaption>Robin Bird Reading a Book in a Winter Scarf</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="reindeer-librarian-holding-stack-of-christmas-books" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/reindeer-librarian-holding-stack-of-christmas-books.jpg" alt="Reindeer Librarian Holding a Stack of Christmas Books">
+      <figcaption>Reindeer Librarian Holding a Stack of Christmas Books</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="penguin-reading-by-candlelight-in-winter-hat" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/penguin-reading-by-candlelight-in-winter-hat.jpg" alt="Penguin Reading by Candlelight in a Winter Hat">
+      <figcaption>Penguin Reading by Candlelight in a Winter Hat</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="raccoon-wrapping-christmas-gifts-beside-books" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/raccoon-wrapping-christmas-gifts-beside-books.jpg" alt="Raccoon Wrapping Christmas Gifts Beside Books">
+      <figcaption>Raccoon Wrapping Christmas Gifts Beside Books</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="arctic-hares-reading-books-new-year-2027" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/arctic-hares-reading-books-new-year-2027.jpg" alt="Arctic Hares Reading Books on New Year 2027">
+      <figcaption>Arctic Hares Reading Books on New Year 2027</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="dormouse-reading-in-starlit-advent-library-nook" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/dormouse-reading-in-starlit-advent-library-nook.jpg" alt="Dormouse Reading in a Starlit Advent Library Nook">
+      <figcaption>Dormouse Reading in a Starlit Advent Library Nook</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="badger-reading-book-in-cozy-armchair-with-tea" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/badger-reading-book-in-cozy-armchair-with-tea.jpg" alt="Badger Reading a Book in a Cozy Armchair with Tea">
+      <figcaption>Badger Reading a Book in a Cozy Armchair with Tea</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="frog-reading-book-under-red-mushroom" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/frog-reading-book-under-red-mushroom.jpg" alt="Frog Reading a Book Under a Red Mushroom">
+      <figcaption>Frog Reading a Book Under a Red Mushroom</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="luna-moth-reading-book-on-stack-of-books" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/luna-moth-reading-book-on-stack-of-books.jpg" alt="Luna Moth Reading a Book on a Stack of Books">
+      <figcaption>Luna Moth Reading a Book on a Stack of Books</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="poet-mouse-writing-with-quill-by-candlelight" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/poet-mouse-writing-with-quill-by-candlelight.jpg" alt="Poet Mouse Writing with a Quill by Candlelight">
+      <figcaption>Poet Mouse Writing with a Quill by Candlelight</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="white-bunny-hugging-giant-green-cabbage" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/white-bunny-hugging-giant-green-cabbage.jpg" alt="White Bunny Hugging a Giant Green Cabbage">
+      <figcaption>White Bunny Hugging a Giant Green Cabbage</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="hedgehog-gardener-with-potted-rosemary-herb" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/hedgehog-gardener-with-potted-rosemary-herb.jpg" alt="Hedgehog Gardener with a Potted Rosemary Herb">
+      <figcaption>Hedgehog Gardener with a Potted Rosemary Herb</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="mouse-pouring-herbal-tea-in-apothecary" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/mouse-pouring-herbal-tea-in-apothecary.jpg" alt="Mouse Pouring Herbal Tea in an Apothecary">
+      <figcaption>Mouse Pouring Herbal Tea in an Apothecary</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="possum-pastry-chef-holding-fresh-croissants" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/possum-pastry-chef-holding-fresh-croissants.jpg" alt="Possum Pastry Chef Holding Fresh Croissants">
+      <figcaption>Possum Pastry Chef Holding Fresh Croissants</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="raccoon-baker-holding-fresh-sourdough-loaf" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/raccoon-baker-holding-fresh-sourdough-loaf.jpg" alt="Raccoon Baker Holding a Fresh Sourdough Loaf">
+      <figcaption>Raccoon Baker Holding a Fresh Sourdough Loaf</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="astronaut-cat-sleeping-on-purple-planet" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/astronaut-cat-sleeping-on-purple-planet.jpg" alt="Astronaut Cat Sleeping on a Purple Planet">
+      <figcaption>Astronaut Cat Sleeping on a Purple Planet</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="raccoon-roasting-marshmallows-at-forest-campfire" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/raccoon-roasting-marshmallows-at-forest-campfire.jpg" alt="Raccoon Roasting Marshmallows at a Forest Campfire">
+      <figcaption>Raccoon Roasting Marshmallows at a Forest Campfire</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="sloth-hiking-mountain-trail-with-backpack" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/sloth-hiking-mountain-trail-with-backpack.jpg" alt="Sloth Hiking a Mountain Trail with a Backpack">
+      <figcaption>Sloth Hiking a Mountain Trail with a Backpack</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="mountain-goat-drinking-coffee-on-rocky-summit" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/mountain-goat-drinking-coffee-on-rocky-summit.jpg" alt="Mountain Goat Drinking Coffee on a Rocky Summit">
+      <figcaption>Mountain Goat Drinking Coffee on a Rocky Summit</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="astronaut-otter-eating-banana-in-space" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/astronaut-otter-eating-banana-in-space.jpg" alt="Astronaut Otter Eating a Banana in Space">
+      <figcaption>Astronaut Otter Eating a Banana in Space</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="squirrel-stirring-apple-butter-in-copper-pot" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/squirrel-stirring-apple-butter-in-copper-pot.jpg" alt="Squirrel Stirring Apple Butter in a Copper Pot">
+      <figcaption>Squirrel Stirring Apple Butter in a Copper Pot</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+  <div id="pangolin-reading-open-book-by-candlelight" class="lb">
+    <a class="lb-bg" href="#gallery" aria-label="Close preview"></a>
+    <figure>
+      <img src="img/pangolin-reading-open-book-by-candlelight.jpg" alt="Pangolin Reading an Open Book by Candlelight">
+      <figcaption>Pangolin Reading an Open Book by Candlelight</figcaption>
+      <a class="lb-x" href="#gallery">Close</a>
+    </figure>
+  </div>
+</body>
+</html>
