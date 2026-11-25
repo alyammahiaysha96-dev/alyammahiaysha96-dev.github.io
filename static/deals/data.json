@@ -1,9 +1,9 @@
 {
   "site": {
-    "name": "The Useful Edit",
-    "tagline": "Everyday Finds",
-    "nameAr": "The Useful Edit",
-    "taglineAr": "Everyday Finds",
+    "name": "Everyday Finds",
+    "tagline": "Verified UAE & worldwide deals",
+    "nameAr": "Everyday Finds",
+    "taglineAr": "عروض الإمارات والعالم المؤكدة",
     "baseUrl": "https://alyammahiaysha96-dev.github.io/deals",
     "pinterest": "https://www.pinterest.com/theusefuledit_ae/",
     "pinterestHandle": "@theusefuledit_ae",
@@ -14,13 +14,51 @@
     "localeCheckedAr": "24 نوفمبر 2026"
   },
   "categories": [
-    {"id": "all", "en": "All stores", "ar": "كل المحلات"},
-    {"id": "fashion", "en": "Fashion", "ar": "أزياء"},
-    {"id": "luxury", "en": "Luxury", "ar": "فخامة"},
-    {"id": "shoes", "en": "Shoes & bags", "ar": "أحذية وحقائب"},
-    {"id": "baby", "en": "Baby & nursery", "ar": "أطفال ومشتل"},
-    {"id": "health", "en": "Health & wellness", "ar": "صحة وعناية"},
-    {"id": "marketplace", "en": "Marketplaces", "ar": "أسواق إلكترونية"}
+    {
+      "id": "all",
+      "en": "All stores",
+      "ar": "كل المحلات"
+    },
+    {
+      "id": "fashion",
+      "en": "Fashion",
+      "ar": "أزياء"
+    },
+    {
+      "id": "luxury",
+      "en": "Luxury",
+      "ar": "فخامة"
+    },
+    {
+      "id": "shoes",
+      "en": "Shoes & bags",
+      "ar": "أحذية وحقائب"
+    },
+    {
+      "id": "baby",
+      "en": "Baby & nursery",
+      "ar": "أطفال ومشتل"
+    },
+    {
+      "id": "health",
+      "en": "Health & wellness",
+      "ar": "صحة وعناية"
+    },
+    {
+      "id": "marketplace",
+      "en": "Marketplaces",
+      "ar": "أسواق إلكترونية"
+    },
+    {
+      "id": "beauty",
+      "en": "Beauty",
+      "ar": "جمال وعناية"
+    },
+    {
+      "id": "home",
+      "en": "Home & decor",
+      "ar": "المنزل والديكور"
+    }
   ],
   "stores": [
     {
@@ -33,7 +71,10 @@
       "homepage": "https://www.gap.ae/",
       "saleUrl": "https://www.gap.ae/en/sale",
       "affiliateUrl": "",
-      "aliases": ["gap uae", "جاب"],
+      "aliases": [
+        "gap uae",
+        "جاب"
+      ],
       "blurbEn": "Official GAP online store for the UAE, with clothing for women, men, kids and baby.",
       "blurbAr": "الموقع الرسمي لجاب في الإمارات، بأزياء للنساء والرجال والأطفال والرضّع.",
       "offers": [
@@ -73,6 +114,11 @@
           "sourceUrl": "https://www.gap.ae/",
           "checked": "2026-11-24"
         }
+      ],
+      "badgeEn": "30–50% OFF",
+      "badgeAr": "خصم 30–50٪",
+      "markets": [
+        "gcc"
       ]
     },
     {
@@ -85,7 +131,11 @@
       "homepage": "https://mamasandpapas.ae/",
       "saleUrl": "https://mamasandpapas.ae/",
       "affiliateUrl": "",
-      "aliases": ["mamasandpapas", "mamas and papas", "ماماز"],
+      "aliases": [
+        "mamasandpapas",
+        "mamas and papas",
+        "ماماز"
+      ],
       "blurbEn": "Official Mamas & Papas store for the UAE, with baby, nursery and parenting products.",
       "blurbAr": "الموقع الرسمي لماماز آند باباز في الإمارات، لمنتجات الأطفال والمشتل.",
       "offers": [
@@ -101,6 +151,11 @@
           "sourceUrl": "https://mamasandpapas.ae/",
           "checked": "2026-11-24"
         }
+      ],
+      "badgeEn": "UP TO 60% + EXTRA 10%",
+      "badgeAr": "حتى 60٪ + 10٪ إضافية",
+      "markets": [
+        "gcc"
       ]
     },
     {
@@ -113,7 +168,10 @@
       "homepage": "https://bloomingdales.ae/",
       "saleUrl": "https://bloomingdales.ae/sale-public/",
       "affiliateUrl": "",
-      "aliases": ["bloomingdales uae", "بلومينغديلز"],
+      "aliases": [
+        "bloomingdales uae",
+        "بلومينغديلز"
+      ],
       "blurbEn": "Official Bloomingdale's UAE store for luxury fashion, beauty and home.",
       "blurbAr": "الموقع الرسمي لبلومينغديلز الإمارات للأزياء الفاخرة والجمال والمنزل.",
       "offers": [
@@ -129,6 +187,11 @@
           "sourceUrl": "https://bloomingdales.ae/sale-public/",
           "checked": "2026-11-24"
         }
+      ],
+      "badgeEn": "UP TO 60% OFF",
+      "badgeAr": "خصم حتى 60٪",
+      "markets": [
+        "gcc"
       ]
     },
     {
@@ -141,7 +204,10 @@
       "homepage": "https://www.levelshoes.com/",
       "saleUrl": "https://www.levelshoes.com/sale/shoes.html",
       "affiliateUrl": "",
-      "aliases": ["levelshoes", "level shoes uae"],
+      "aliases": [
+        "levelshoes",
+        "level shoes uae"
+      ],
       "blurbEn": "Official Level Shoes UAE store for designer shoes, bags and accessories.",
       "blurbAr": "الموقع الرسمي لليفل شوز في الإمارات للأحذية والحقائب والإكسسوارات.",
       "offers": [
@@ -157,6 +223,9 @@
           "sourceUrl": "https://www.levelshoes.com/sale/shoes.html",
           "checked": "2026-11-24"
         }
+      ],
+      "markets": [
+        "gcc"
       ]
     },
     {
@@ -169,7 +238,10 @@
       "homepage": "https://vogacloset.com/uae/en/",
       "saleUrl": "https://vogacloset.com/uae/en/dynamic-category/cyber-deals/",
       "affiliateUrl": "",
-      "aliases": ["voga closet", "فوغا"],
+      "aliases": [
+        "voga closet",
+        "فوغا"
+      ],
       "blurbEn": "VogaCloset UAE store for women’s, men’s and kids’ fashion from European brands.",
       "blurbAr": "متجر فوغاكلوسيت في الإمارات لأزياء النساء والرجال والأطفال من ماركات أوروبية.",
       "offers": [
@@ -197,6 +269,11 @@
           "sourceUrl": "https://vogacloset.com/uae/en/black-friday-discounts/",
           "checked": "2026-11-24"
         }
+      ],
+      "badgeEn": "UP TO 90% OFF",
+      "badgeAr": "خصم حتى 90٪",
+      "markets": [
+        "gcc"
       ]
     },
     {
@@ -209,7 +286,11 @@
       "homepage": "https://aignerme.com/en_ae/",
       "saleUrl": "https://aignerme.com/en_ae/sale/",
       "affiliateUrl": "",
-      "aliases": ["aigner uae", "aigner middle east", "أيغنر"],
+      "aliases": [
+        "aigner uae",
+        "aigner middle east",
+        "أيغنر"
+      ],
       "blurbEn": "Official Aigner Middle East store for the UAE: leather bags, watches, jewellery and accessories.",
       "blurbAr": "الموقع الرسمي لأيغنر في الشرق الأوسط والإمارات: حقائب جلدية وساعات ومجوهرات وإكسسوارات.",
       "offers": [
@@ -237,6 +318,11 @@
           "sourceUrl": "https://aignerme.com/en_ae/sale/",
           "checked": "2026-11-24"
         }
+      ],
+      "badgeEn": "10% FIRST ORDER",
+      "badgeAr": "خصم 10٪ لأول طلب",
+      "markets": [
+        "gcc"
       ]
     },
     {
@@ -249,24 +335,36 @@
       "homepage": "https://en-ae.aivi.com/",
       "saleUrl": "https://en-ae.aivi.com/",
       "affiliateUrl": "",
-      "aliases": ["6thstreet", "6th street", "sixth street", "aivi", "سيكست ستريت"],
+      "aliases": [
+        "6thstreet",
+        "6th street",
+        "sixth street",
+        "aivi",
+        "سيكست ستريت"
+      ],
       "formerly": "6thStreet",
       "formerlyAr": "6thStreet",
       "blurbEn": "AIVI is the official new name of 6thStreet, Apparel Group’s GCC fashion store.",
       "blurbAr": "آيفي هو الاسم الجديد الرسمي لـ 6thStreet، متجر أباريل جروب للأزياء في الخليج.",
-      "offers": []
+      "offers": [],
+      "markets": [
+        "gcc"
+      ]
     },
     {
       "slug": "iherb",
       "name": "iHerb",
       "nameAr": "آي هيرب",
       "category": "health",
-      "region": "Ships to UAE",
-      "regionAr": "يشحن للإمارات",
+      "region": "Worldwide",
+      "regionAr": "عالمي",
       "homepage": "https://www.iherb.com/",
       "saleUrl": "https://www.iherb.com/c/deals",
       "affiliateUrl": "",
-      "aliases": ["i herb", "آي هيرب"],
+      "aliases": [
+        "i herb",
+        "آي هيرب"
+      ],
       "blurbEn": "Official iHerb store for vitamins, supplements and natural health products, with delivery to the UAE.",
       "blurbAr": "الموقع الرسمي لآي هيرب للفيتامينات والمكملات والمنتجات الطبيعية، مع الشحن للإمارات.",
       "offers": [
@@ -282,6 +380,10 @@
           "sourceUrl": "https://www.iherb.com/c/deals",
           "checked": "2026-11-24"
         }
+      ],
+      "markets": [
+        "gcc",
+        "global"
       ]
     },
     {
@@ -289,15 +391,22 @@
       "name": "SHEIN",
       "nameAr": "شي إن",
       "category": "fashion",
-      "region": "UAE & GCC",
-      "regionAr": "الإمارات والخليج",
+      "region": "Worldwide",
+      "regionAr": "عالمي",
       "homepage": "https://www.shein.com/",
       "saleUrl": "https://www.shein.com/",
       "affiliateUrl": "",
-      "aliases": ["شي إن", "shein uae"],
+      "aliases": [
+        "شي إن",
+        "shein uae"
+      ],
       "blurbEn": "SHEIN official store for women’s, men’s and kids’ fashion, with GCC delivery options.",
       "blurbAr": "الموقع الرسمي لشي إن لأزياء النساء والرجال والأطفال، مع خيارات التوصيل في الخليج.",
-      "offers": []
+      "offers": [],
+      "markets": [
+        "gcc",
+        "global"
+      ]
     },
     {
       "slug": "namshi",
@@ -309,10 +418,15 @@
       "homepage": "https://www.namshi.com/uae-en/",
       "saleUrl": "https://www.namshi.com/uae-en/",
       "affiliateUrl": "",
-      "aliases": ["نمشي"],
+      "aliases": [
+        "نمشي"
+      ],
       "blurbEn": "Namshi official UAE store for fashion, shoes and bags.",
       "blurbAr": "الموقع الرسمي لنمشي في الإمارات للأزياء والأحذية والحقائب.",
-      "offers": []
+      "offers": [],
+      "markets": [
+        "gcc"
+      ]
     },
     {
       "slug": "noon",
@@ -324,9 +438,328 @@
       "homepage": "https://www.noon.com/uae-en/",
       "saleUrl": "https://www.noon.com/uae-en/",
       "affiliateUrl": "",
-      "aliases": ["نون"],
+      "aliases": [
+        "نون"
+      ],
       "blurbEn": "noon official UAE marketplace for electronics, fashion, beauty, home and more.",
       "blurbAr": "موقع نون الرسمي في الإمارات للإلكترونيات والأزياء والجمال والمنزل وأكثر.",
+      "offers": [],
+      "markets": [
+        "gcc"
+      ]
+    },
+    {
+      "slug": "aliexpress",
+      "name": "AliExpress",
+      "nameAr": "علي إكسبريس",
+      "category": "marketplace",
+      "markets": [
+        "global"
+      ],
+      "region": "Worldwide",
+      "regionAr": "عالمي",
+      "homepage": "https://www.aliexpress.com/",
+      "saleUrl": "https://www.aliexpress.com/",
+      "affiliateUrl": "",
+      "aliases": [
+        "ali express",
+        "علي اكسبرس",
+        "aliexpress ww"
+      ],
+      "blurbEn": "Official AliExpress worldwide marketplace, with fashion, home, electronics and more, and international shipping.",
+      "blurbAr": "السوق الرسمي لعلي إكسبريس العالمي، فيه أزياء ومنزل وإلكترونيات وغيرها، مع شحن دولي.",
+      "offers": [],
+      "badgeEn": "",
+      "badgeAr": ""
+    },
+    {
+      "slug": "temu",
+      "name": "Temu",
+      "nameAr": "تيمو",
+      "category": "marketplace",
+      "markets": [
+        "global"
+      ],
+      "region": "Worldwide",
+      "regionAr": "عالمي",
+      "homepage": "https://www.temu.com/",
+      "saleUrl": "https://www.temu.com/",
+      "affiliateUrl": "",
+      "aliases": [
+        "تيمو"
+      ],
+      "blurbEn": "Official Temu store for clothing, home, beauty and everyday finds, with international shipping options.",
+      "blurbAr": "الموقع الرسمي لتيمو للأزياء والمنزل والجمال والمشتريات اليومية، مع خيارات الشحن الدولي.",
+      "offers": [],
+      "badgeEn": "",
+      "badgeAr": ""
+    },
+    {
+      "slug": "nike",
+      "name": "Nike",
+      "nameAr": "نايك",
+      "category": "shoes",
+      "markets": [
+        "global"
+      ],
+      "region": "Worldwide",
+      "regionAr": "عالمي",
+      "homepage": "https://www.nike.com/",
+      "saleUrl": "https://www.nike.com/w/black-friday-2phlm",
+      "affiliateUrl": "",
+      "aliases": [
+        "نايكي",
+        "nike official"
+      ],
+      "blurbEn": "Official Nike store for shoes, clothing and accessories, with country sites for delivery.",
+      "blurbAr": "الموقع الرسمي لنايك للأحذية والأزياء والإكسسوارات، وفيه مواقع حسب الدولة للتوصيل.",
+      "badgeEn": "UP TO 50% OFF",
+      "badgeAr": "خصم حتى 50٪",
+      "offers": [
+        {
+          "id": "nike-bf-50",
+          "type": "sale",
+          "titleEn": "Black Friday is here with up to 50% off best sellers",
+          "titleAr": "البلاك فرايدي بدأ، مع خصم حتى 50٪ على الأكثر مبيعًا",
+          "code": "",
+          "detailEn": "The official Nike Black Friday 2026 page description reads: “Black Friday is here with up to 50% off best sellers.” Prices and availability vary by country site.",
+          "detailAr": "وصف صفحة نايك الرسمية للبلاك فرايدي 2026 يقول: «Black Friday is here with up to 50% off best sellers». الأسعار والتوفر يختلفون حسب موقع الدولة.",
+          "sourceName": "Nike official Black Friday 2026 page",
+          "sourceUrl": "https://www.nike.com/w/black-friday-2phlm",
+          "checked": "2026-11-24"
+        },
+        {
+          "id": "nike-bfriday",
+          "type": "code",
+          "titleEn": "Extra 25% off with code BFRIDAY",
+          "titleAr": "خصم إضافي 25٪ بكود BFRIDAY",
+          "code": "BFRIDAY",
+          "detailEn": "The official page heading is “Extra 25% Off Use Code: BFRIDAY.” Product cards on that page also show “Extra 25% off w/ code BFRIDAY.” Always check the basket, as not every item may qualify.",
+          "detailAr": "عنوان الصفحة الرسمية: «Extra 25% Off Use Code: BFRIDAY». وبطاقات المنتجات في نفس الصفحة مكتوب فيها نفس الكود. تأكدّي من السلة، لأنه مو كل قطعة تدخل في العرض.",
+          "sourceName": "Nike official Black Friday 2026 page",
+          "sourceUrl": "https://www.nike.com/w/black-friday-2phlm",
+          "checked": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "slug": "adidas",
+      "name": "adidas",
+      "nameAr": "أديداس",
+      "category": "shoes",
+      "markets": [
+        "global"
+      ],
+      "region": "Worldwide",
+      "regionAr": "عالمي",
+      "homepage": "https://www.adidas.com/us/",
+      "saleUrl": "https://www.adidas.com/us/black_friday",
+      "affiliateUrl": "",
+      "aliases": [
+        "اديداس",
+        "adidas official"
+      ],
+      "blurbEn": "Official adidas store for shoes, clothing and accessories. Other country sites may show different prices.",
+      "blurbAr": "الموقع الرسمي لأديداس للأحذية والأزياء والإكسسوارات. مواقع الدول الثانية ممكن تظهر أسعار مختلفة.",
+      "badgeEn": "UP TO 60% OFF",
+      "badgeAr": "خصم حتى 60٪",
+      "offers": [
+        {
+          "id": "adidas-bf-60",
+          "type": "sale",
+          "titleEn": "Black Friday deals: up to 60% off select shoes, clothing and accessories",
+          "titleAr": "عروض البلاك فرايدي: خصم حتى 60٪ على أحذية وأزياء وإكسسوارات مختارة",
+          "code": "",
+          "detailEn": "The official adidas US Black Friday page heading is “Black Friday Deals: Up to 60% off.” The page says “No code required. Offer valid through 11/28,” on select items while supplies last. Other country sites may differ.",
+          "detailAr": "عنوان صفحة أديداس الأمريكية الرسمية: «Black Friday Deals: Up to 60% off». ومكتوب «No code required. Offer valid through 11/28»، على قطع مختارة وما دام الكمية موجودة. مواقع الدول الثانية ممكن تختلف.",
+          "sourceName": "adidas US official Black Friday page",
+          "sourceUrl": "https://www.adidas.com/us/black_friday",
+          "checked": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "slug": "sephora",
+      "name": "Sephora",
+      "nameAr": "سيفورا",
+      "category": "beauty",
+      "markets": [
+        "global"
+      ],
+      "region": "Worldwide",
+      "regionAr": "عالمي",
+      "homepage": "https://www.sephora.com/",
+      "saleUrl": "https://www.sephora.com/beauty/cyber-week-deals",
+      "affiliateUrl": "",
+      "aliases": [
+        "سيفورا"
+      ],
+      "blurbEn": "Official Sephora store for makeup, skincare, hair and fragrance. Offers can differ on other country sites.",
+      "blurbAr": "الموقع الرسمي لسيفورا للمكياج والعناية بالبشرة والشعر والعطور. العروض ممكن تختلف في مواقع الدول الثانية.",
+      "badgeEn": "",
+      "badgeAr": "",
+      "offers": [
+        {
+          "id": "sephora-cyber-week",
+          "type": "sale",
+          "titleEn": "Cyber Week is here, with deals on top brands through 11/30",
+          "titleAr": "أسبوع السايبر بدأ، وفيه عروض على براندات إلى 30 نوفمبر",
+          "code": "",
+          "detailEn": "The official Sephora Cyber Week page heading is “Cyber Week Is Here,” and it says “Get the best deals on top brands through 11/30.” On 24 November 2026 the same page highlighted “30% off Kiehl's—Today Only” and “30% off Laura Mercier—Today Only.” Those two brand discounts were marked as today-only, so check the official page before you buy.",
+          "detailAr": "عنوان صفحة سيفورا الرسمية: «Cyber Week Is Here»، ومكتوب إن أفضل العروض على البراندات إلى 30 نوفمبر. وفي 24 نوفمبر 2026 نفس الصفحة أبرزت خصم 30٪ على Kiehl's وLaura Mercier لليوم فقط. تأكدّي من الصفحة الرسمية قبل الشراء.",
+          "sourceName": "Sephora official Cyber Week deals page",
+          "sourceUrl": "https://www.sephora.com/beauty/cyber-week-deals",
+          "checked": "2026-11-24"
+        },
+        {
+          "id": "sephora-grabmybag",
+          "type": "code",
+          "titleEn": "Free sample bag with a $95 minimum spend, code GRABMYBAG",
+          "titleAr": "عينة مجانية (شنطة عينات) بحد أدنى 95 دولار، الكود GRABMYBAG",
+          "code": "GRABMYBAG",
+          "detailEn": "The official sample-bag page says: “Choose 1 of 4 coveted sample bags. Online only with $95 min. spend. Use code GRABMYBAG. Exclusions/terms apply.”",
+          "detailAr": "الصفحة الرسمية تقول: اختاري واحدة من 4 شنط عينات، أونلاين فقط، بحد أدنى 95 دولار، واستخدمي كود GRABMYBAG. فيه استثناءات وشروط.",
+          "sourceName": "Sephora official Cyber Week sample bag page",
+          "sourceUrl": "https://www.sephora.com/beauty/cyber-week-sample-bag",
+          "checked": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "slug": "asos",
+      "name": "ASOS",
+      "nameAr": "أسوس",
+      "category": "fashion",
+      "markets": [
+        "global"
+      ],
+      "region": "Worldwide",
+      "regionAr": "عالمي",
+      "homepage": "https://www.asos.com/",
+      "saleUrl": "https://www.asos.com/us/discover/black-friday-cyber-monday-deals/",
+      "affiliateUrl": "",
+      "aliases": [
+        "اسوس"
+      ],
+      "blurbEn": "Official ASOS store for womenswear, menswear and beauty from 850+ brands, with international delivery options.",
+      "blurbAr": "الموقع الرسمي لأسوس لأزياء النساء والرجال والجمال من أكثر من 850 براند، مع خيارات توصيل دولية.",
+      "badgeEn": "",
+      "badgeAr": "",
+      "offers": [
+        {
+          "id": "asos-bf-dates",
+          "type": "sale",
+          "titleEn": "Official Black Friday dates: 27–30 November 2026",
+          "titleAr": "تواريخ البلاك فرايدي الرسمية: 27 إلى 30 نوفمبر 2026",
+          "code": "",
+          "detailEn": "The official ASOS Black Friday 2026 page says the sale runs from Friday 27 November through Cyber Monday 30 November 2026, across 850+ brands. No discount percentage or public promo code was published on that page when checked (the page itself was last updated 20 November 2026). We will add a figure or code when the official site shows one.",
+          "detailAr": "صفحة أسوس الرسمية للبلاك فرايدي 2026 تقول إن التخفيضات من الجمعة 27 نوفمبر إلى سايبر موندي 30 نوفمبر 2026، على أكثر من 850 براند. ما كان في نسبة خصم ولا كود عام منشور في الصفحة وقت التدقيق (آخر تحديث للصفحة 20 نوفمبر 2026). بنحط الرقم أو الكود أول ما يظهر في الموقع الرسمي.",
+          "sourceName": "ASOS official Black Friday & Cyber Monday 2026 page",
+          "sourceUrl": "https://www.asos.com/us/discover/black-friday-cyber-monday-deals/",
+          "checked": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "slug": "hm",
+      "name": "H&M",
+      "nameAr": "إتش آند إم",
+      "category": "fashion",
+      "markets": [
+        "global"
+      ],
+      "region": "Worldwide",
+      "regionAr": "عالمي",
+      "homepage": "https://www2.hm.com/en_us/index.html",
+      "saleUrl": "https://www2.hm.com/en_us/seasonal/black-friday.html",
+      "affiliateUrl": "",
+      "aliases": [
+        "h and m",
+        "اتش اند ام",
+        "hm"
+      ],
+      "blurbEn": "Official H&M store for women’s, men’s, kids’ and home fashion, with country sites for delivery.",
+      "blurbAr": "الموقع الرسمي لإتش آند إم لأزياء النساء والرجال والأطفال والمنزل، وفيه مواقع حسب الدولة للتوصيل.",
+      "offers": [],
+      "badgeEn": "",
+      "badgeAr": ""
+    },
+    {
+      "slug": "ulta",
+      "name": "Ulta Beauty",
+      "nameAr": "ألتا بيوتي",
+      "category": "beauty",
+      "markets": [
+        "global"
+      ],
+      "region": "Worldwide",
+      "regionAr": "عالمي",
+      "homepage": "https://www.ulta.com/",
+      "saleUrl": "https://www.ulta.com/promotion/black-friday",
+      "affiliateUrl": "",
+      "aliases": [
+        "ulta",
+        "التا"
+      ],
+      "blurbEn": "Official Ulta Beauty store for makeup, skincare, hair, fragrance and wellness, primarily serving the US with online shopping.",
+      "blurbAr": "الموقع الرسمي لألتا بيوتي للمكياج والعناية بالبشرة والشعر والعطور والعافية، ويخدم أساسًا الولايات المتحدة مع التسوق الأونلاين.",
+      "badgeEn": "UP TO 50% OFF",
+      "badgeAr": "خصم حتى 50٪",
+      "offers": [
+        {
+          "id": "ulta-bf-50",
+          "type": "sale",
+          "titleEn": "Black Friday deals: up to 50% off select beauty products, through 28 November",
+          "titleAr": "عروض البلاك فرايدي: خصم حتى 50٪ على منتجات تجميل مختارة، إلى 28 نوفمبر",
+          "code": "",
+          "detailEn": "The official Ulta Black Friday page says the sale is happening now through midnight Central Time on 28 November 2026, “with savings of up to 50% off select beauty products from top brands.” Offers can vary by product and channel.",
+          "detailAr": "صفحة ألتا الرسمية تقول إن تخفيضات البلاك فرايدي شغّالة الحين إلى منتصف الليل بتوقيت سنترال في 28 نوفمبر 2026، «مع توفير حتى 50٪ على منتجات تجميل مختارة من براندات». العروض ممكن تختلف حسب المنتج وقناة الشراء.",
+          "sourceName": "Ulta Beauty official Black Friday page",
+          "sourceUrl": "https://www.ulta.com/promotion/black-friday",
+          "checked": "2026-11-24"
+        },
+        {
+          "id": "ulta-clinique-el",
+          "type": "sale",
+          "titleEn": "30% off Clinique (entire brand) and 30% off select Estée Lauder skin care and suncare",
+          "titleAr": "خصم 30٪ على كل Clinique، و30٪ على مختارات العناية بالبشرة والواقي الشمسي من Estée Lauder",
+          "code": "",
+          "detailEn": "These brand offers were listed on the official Ulta Black Friday page when checked: “30% off Clinique, Entire brand” and “30% off Estée Lauder, Select skin care & suncare.”",
+          "detailAr": "هالعروض ظهرت في صفحة ألتا الرسمية وقت التدقيق: خصم 30٪ على كل براند Clinique، و30٪ على مختارات العناية بالبشرة والواقي الشمسي من Estée Lauder.",
+          "sourceName": "Ulta Beauty official Black Friday page",
+          "sourceUrl": "https://www.ulta.com/promotion/black-friday",
+          "checked": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "slug": "dream-home-store",
+      "name": "Dream Home Store",
+      "nameAr": "دريم هوم ستور",
+      "category": "home",
+      "markets": [
+        "global"
+      ],
+      "region": "UK",
+      "regionAr": "بريطانيا",
+      "homepage": "https://dreamhomestore.co.uk/",
+      "saleUrl": "https://dreamhomestore.co.uk/",
+      "affiliateUrl": "https://click.linksynergy.com/fs-bin/click?id=RlXLNsB2xFQ&offerid=2123848.6&type=3&subid=0",
+      "aliases": [
+        "dreamhomestore",
+        "dream home",
+        "دريم هوم",
+        "furniture uk",
+        "uk furniture"
+      ],
+      "blurbEn": "UK furniture, beds and home decor.",
+      "blurbAr": "أثاث بريطاني، أسرّة وديكور منزلي.",
+      "cardEn": "UK furniture, beds and home decor",
+      "cardAr": "أثاث بريطاني، أسرّة وديكور منزلي",
+      "shopCtaEn": "Shop Dream Home Store",
+      "shopCtaAr": "تسوقي من Dream Home Store",
+      "badgeEn": "",
+      "badgeAr": "",
       "offers": []
     }
   ]

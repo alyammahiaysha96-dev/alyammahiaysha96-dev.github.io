@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://alyammahiaysha96-dev.github.io/deals/</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://alyammahiaysha96-dev.github.io/deals/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://alyammahiaysha96-dev.github.io/deals/?lang=ar"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://alyammahiaysha96-dev.github.io/deals/"/>
   </url>
   <url>
     <loc>https://alyammahiaysha96-dev.github.io/deals/?lang=ar</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://alyammahiaysha96-dev.github.io/deals/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://alyammahiaysha96-dev.github.io/deals/?lang=ar"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://alyammahiaysha96-dev.github.io/deals/"/>
@@ -44,14 +44,14 @@
   </url>
   <url>
     <loc>https://alyammahiaysha96-dev.github.io/deals/disclosure/</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://alyammahiaysha96-dev.github.io/deals/disclosure/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://alyammahiaysha96-dev.github.io/deals/disclosure/?lang=ar"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://alyammahiaysha96-dev.github.io/deals/disclosure/"/>
   </url>
   <url>
     <loc>https://alyammahiaysha96-dev.github.io/deals/disclosure/?lang=ar</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://alyammahiaysha96-dev.github.io/deals/disclosure/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://alyammahiaysha96-dev.github.io/deals/disclosure/?lang=ar"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://alyammahiaysha96-dev.github.io/deals/disclosure/"/>
@@ -335,5 +335,19 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://alyammahiaysha96-dev.github.io/deals/stores/ulta/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://alyammahiaysha96-dev.github.io/deals/stores/ulta/?lang=ar"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://alyammahiaysha96-dev.github.io/deals/stores/ulta/"/>
+  </url>
+  <url>
+    <loc>https://alyammahiaysha96-dev.github.io/deals/stores/dream-home-store/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alyammahiaysha96-dev.github.io/deals/stores/dream-home-store/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alyammahiaysha96-dev.github.io/deals/stores/dream-home-store/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alyammahiaysha96-dev.github.io/deals/stores/dream-home-store/"/>
+  </url>
+  <url>
+    <loc>https://alyammahiaysha96-dev.github.io/deals/stores/dream-home-store/?lang=ar</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alyammahiaysha96-dev.github.io/deals/stores/dream-home-store/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alyammahiaysha96-dev.github.io/deals/stores/dream-home-store/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alyammahiaysha96-dev.github.io/deals/stores/dream-home-store/"/>
   </url>
 </urlset>
